@@ -536,17 +536,17 @@ def render_home():
     </div>
     """, unsafe_allow_html=True)
     
-    # CTA Buttons
-    col1, col2, col3 = st.columns([1, 1, 1])
-    with col1:
-        st.write("")
-    with col2:
-        if st.button("🔍 Bắt đầu tìm quán", key="cta_search", use_container_width=True):
-            navigate_to('search')
-        if st.button("📋 Xem danh sách quán", key="cta_list", use_container_width=True):
-            navigate_to('search')
-    with col3:
-        st.write("")
+    # # CTA Buttons
+    # col1, col2, col3 = st.columns([1, 1, 1])
+    # with col1:
+    #     st.write("")
+    # with col2:
+    #     if st.button("🔍 Bắt đầu tìm quán", key="cta_search", use_container_width=True):
+    #         navigate_to('search')
+    #     if st.button("📋 Xem danh sách quán", key="cta_list", use_container_width=True):
+    #         navigate_to('search')
+    # with col3:
+    #     st.write("")
     
     # About Preview
     st.markdown('<h2 class="section-title">Giới thiệu nhanh</h2>', unsafe_allow_html=True)
@@ -568,10 +568,10 @@ def render_home():
             </div>
             """, unsafe_allow_html=True)
     
-    col1, col2, col3 = st.columns([1, 1, 1])
-    with col2:
-        if st.button("📖 Tìm hiểu thêm", key="learn_more", use_container_width=True):
-            navigate_to('about')
+    # col1, col2, col3 = st.columns([1, 1, 1])
+    # with col2:
+    #     if st.button("📖 Tìm hiểu thêm", key="learn_more", use_container_width=True):
+    #         navigate_to('about')
     
     # Features Section
     st.markdown('<h2 class="section-title">Các tính năng chính</h2>', unsafe_allow_html=True)
