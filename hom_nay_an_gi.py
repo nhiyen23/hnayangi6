@@ -521,20 +521,20 @@ def render_navbar():
             if st.button(page_name, key=f"nav_{page_key}", use_container_width=True):
                 navigate_to(page_key)
 
-# Page 1: Home
-# def render_home():
-#     # Hero Section
-#     st.markdown("""
-#     <div class="hero">
-#         <h1 class="hero-title">HÔM NAY ĂN GÌ?</h1>
-#         <p class="hero-subtitle">Web hỗ trợ sinh viên lựa chọn quán ăn quanh khu vực Chùa Láng</p>
-#         <p class="hero-description">
-#             "Hôm Nay Ăn Gì?" là nền tảng giúp sinh viên, đặc biệt là sinh viên Ngoại Thương, 
-#             nhanh chóng tìm được quán ăn phù hợp trong bán kính 1–2km quanh Chùa Láng 
-#             dựa trên giá cả, thời gian, khoảng cách và trải nghiệm thực tế từ sinh viên.
-#         </p>
-#     </div>
-#     """, unsafe_allow_html=True)
+Page 1: Home
+def render_home():
+    # Hero Section
+    st.markdown("""
+    <div class="hero">
+        <h1 class="hero-title">HÔM NAY ĂN GÌ?</h1>
+        <p class="hero-subtitle">Web hỗ trợ sinh viên lựa chọn quán ăn quanh khu vực Chùa Láng</p>
+        <p class="hero-description">
+            "Hôm Nay Ăn Gì?" là nền tảng giúp sinh viên, đặc biệt là sinh viên Ngoại Thương, 
+            nhanh chóng tìm được quán ăn phù hợp trong bán kính 1–2km quanh Chùa Láng 
+            dựa trên giá cả, thời gian, khoảng cách và trải nghiệm thực tế từ sinh viên.
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
     
     # # CTA Buttons
     # col1, col2, col3 = st.columns([1, 1, 1])
