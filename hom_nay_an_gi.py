@@ -59,6 +59,17 @@ st.markdown("""
         margin-bottom: 1rem;
         animation: fadeInDown 1s ease;
     }
+
+    .hero-title2 {
+        font-family: 'Montserrat';
+        font-size: 4rem;
+        font-weight: 900;
+        background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 1rem;
+        animation: fadeInDown 1s ease;
+    }
     
     .hero-subtitle {
         font-family: 'Montserrat';
@@ -528,7 +539,7 @@ def render_home():
     # Hero Section
     st.markdown("""
     <div class="hero">
-        <p class="hero-title">Giới thiệu nhanh</p>
+        <div class="hero-title2">Giới thiệu nhanh</div>
         <p class="hero-subtitle">Web hỗ trợ sinh viên lựa chọn quán ăn quanh khu vực Chùa Láng</p>
         <p class="hero-description">
             "Hôm Nay Ăn Gì?" là nền tảng giúp sinh viên, đặc biệt là sinh viên Ngoại Thương, nhanh chóng tìm được quán ăn phù hợp trong bán kính 1–2km quanh Chùa Láng dựa trên giá cả, thời gian, khoảng cách và trải nghiệm thực tế từ sinh viên.
