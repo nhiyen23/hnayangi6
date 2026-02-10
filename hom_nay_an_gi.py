@@ -66,6 +66,7 @@ st.markdown("""
         color: #666;
         margin-bottom: 1.5rem;
         font-weight: 500;
+        animation: fadeInDown 1s ease;
     }
     
     .hero-description {
@@ -75,6 +76,7 @@ st.markdown("""
         max-width: 1000px;
         margin: 0 auto 2rem !important;
         line-height: 1.8;
+        animation: fadeInDown 1s ease;
     }
     
     /* Buttons */
