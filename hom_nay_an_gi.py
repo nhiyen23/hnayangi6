@@ -150,7 +150,7 @@ st.markdown("""
     
     .feature-card {
         background: white;
-        padding: 18px 20px;
+        padding: 16px 18px;
         border-radius: 20px;
         box-shadow: 0 5px 20px rgba(0,0,0,0.08);
         transition: all 0.3s ease;
