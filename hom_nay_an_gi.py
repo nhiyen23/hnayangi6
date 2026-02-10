@@ -82,7 +82,7 @@ st.markdown("""
     }
 
     .hero-subtitle2 {
-        font-family: 'Montserrat';
+        font-family: 'Inter';
         font-size: 1.5rem;
         color: #666;
         margin-bottom: 1.5rem;
@@ -91,7 +91,7 @@ st.markdown("""
     }
     
     .hero-description {
-        font-family: 'Montserrat';
+        font-family: 'Inter';
         font-size: 1.1rem;
         color: #777;
         max-width: 1000px;
