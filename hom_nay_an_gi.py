@@ -63,7 +63,7 @@ st.markdown("""
     .hero-title2 {
         font-family: 'Montserrat';
         font-size: 4rem;
-        font-weight: 900;
+        font-weight: 600;
         background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
