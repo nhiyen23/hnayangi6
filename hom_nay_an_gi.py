@@ -75,7 +75,7 @@ st.markdown("""
         max-width: 800px;
         margin: 0 auto 2rem;
         line-height: 1.8;
-        text-align: center;
+        text-align: center !important;
     }
     
     /* Buttons */
