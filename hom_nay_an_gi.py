@@ -567,7 +567,7 @@ def render_home():
     
     preview_cols = st.columns(4)
     previews = [
-        ("⚡", "Hỗ trợ tìm quán ăn nhanh chóng"),
+        ("⚡", "Tìm quán ăn nhanh chóng"),
         ("🎓", "Dữ liệu do sinh viên thu thập"),
         ("💰", "Phù hợp ngân sách sinh viên"),
         ("✨", "Giao diện đơn giản, dễ sử dụng")
