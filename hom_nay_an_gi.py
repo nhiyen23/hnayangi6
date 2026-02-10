@@ -172,7 +172,7 @@ st.markdown("""
     .feature-title {
         font-family: 'Montserrat';
         font-size: 1.5rem;
-        font-weight: 700;
+        font-weight: 600;
         color: #333;
         margin-bottom: 0.5rem;
         text-align: center;
