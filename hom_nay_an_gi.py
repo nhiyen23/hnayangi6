@@ -72,8 +72,8 @@ st.markdown("""
         font-family: 'DM Sans', sans-serif;
         font-size: 1.1rem;
         color: #777;
-        max-width: 800px;
-        margin: 0 auto 1rem !important;
+        max-width: 1000px;
+        margin: 0 auto 2rem !important;
         line-height: 1.8;
     }
     
