@@ -50,9 +50,10 @@ st.markdown("""
     }
     
     .hero-title {
+        text-align: center;
         font-family: 'Montserrat';
-        font-size: 4rem;
-        font-weight: 900;
+        font-size: 3rem;
+        font-weight: 700;
         background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -847,7 +848,7 @@ def render_detail():
 
 # Page 4: About Project
 def render_about():
-    st.markdown('<div class="hero-title">Về dự án</div>', unsafe_allow_html=True)
+    st.markdown('<div class="hero-title">VỀ DỰ ÁN</div>', unsafe_allow_html=True)
     st.markdown('<div class="hero-title3">Giới thiệu dự án</div>', unsafe_allow_html=True)
     st.markdown("""
     <div class="feature-card">
