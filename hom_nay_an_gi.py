@@ -836,11 +836,11 @@ def render_detail():
 
 # Page 4: About Project
 def render_about():
-    st.markdown('<h2 class="section-title">💡 Về dự án</h2>', unsafe_allow_html=True)
+    st.markdown('<h2 class="section-title">Về dự án</h2>', unsafe_allow_html=True)
     
     st.markdown("""
     <div class="feature-card">
-        <h3 class="feature-title">📖 Giới thiệu dự án</h3>
+        <h3 class="feature-title">Giới thiệu dự án</h3>
         <p class="feature-description">
             "Hôm Nay Ăn Gì?" được xây dựng nhằm hỗ trợ sinh viên lựa chọn quán ăn phù hợp 
             quanh khu vực Chùa Láng. Dự án xuất phát từ nhu cầu thực tế của sinh viên khi 
@@ -850,7 +850,7 @@ def render_about():
     </div>
     """, unsafe_allow_html=True)
     
-    st.markdown("### 🎯 Mục tiêu")
+    st.markdown("Mục tiêu")
     
     goals = [
         "Xây dựng web hỗ trợ sinh viên tìm quán trong bán kính 1–2km",
@@ -862,34 +862,34 @@ def render_about():
     for goal in goals:
         st.markdown(f"""
         <div class="restaurant-card">
-            <p>✅ {goal}</p>
+            <p>{goal}</p>
         </div>
         """, unsafe_allow_html=True)
     
-    col1, col2 = st.columns(2)
+    # col1, col2 = st.columns(2)
     
-    with col1:
-        st.markdown("""
-        <div class="feature-card">
-            <h3 class="feature-title">👥 Đối tượng</h3>
-            <p class="feature-description">
-                Sinh viên Ngoại Thương và sinh viên khu vực Chùa Láng.
-            </p>
-        </div>
-        """, unsafe_allow_html=True)
+    # with col1:
+    #     st.markdown("""
+    #     <div class="feature-card">
+    #         <h3 class="feature-title">Đối tượng</h3>
+    #         <p class="feature-description">
+    #             Sinh viên Ngoại Thương và sinh viên khu vực Chùa Láng.
+    #         </p>
+    #     </div>
+    #     """, unsafe_allow_html=True)
     
-    with col2:
-        st.markdown("""
-        <div class="feature-card">
-            <h3 class="feature-title">💻 Công nghệ sử dụng</h3>
-            <ul style="font-family: 'DM Sans', sans-serif; color: #666;">
-                <li>Python (Streamlit)</li>
-                <li>Google Sheet lưu dữ liệu</li>
-                <li>Google Maps API</li>
-                <li>Pandas cho xử lý dữ liệu</li>
-            </ul>
-        </div>
-        """, unsafe_allow_html=True)
+    # with col2:
+    #     st.markdown("""
+    #     <div class="feature-card">
+    #         <h3 class="feature-title">Công nghệ sử dụng</h3>
+    #         <ul style="font-family: 'DM Sans', sans-serif; color: #666;">
+    #             <li>Python (Streamlit)</li>
+    #             <li>Google Sheet lưu dữ liệu</li>
+    #             <li>Google Maps API</li>
+    #             <li>Pandas cho xử lý dữ liệu</li>
+    #         </ul>
+    #     </div>
+    #     """, unsafe_allow_html=True)
 
 # Page 5: Contribute
 def render_contribute():
