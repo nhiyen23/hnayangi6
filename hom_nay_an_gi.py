@@ -71,6 +71,17 @@ st.markdown("""
         margin-bottom: 1rem;
         animation: fadeInDown 1s ease;
     }
+
+    .hero-title3 {
+        font-family: 'Playfair Display';
+        font-size: 2.5rem;
+        font-weight: 600;
+        background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 1rem;
+        animation: fadeInDown 1s ease;
+    }
     
     .hero-subtitle {
         font-family: 'Montserrat';
@@ -850,7 +861,7 @@ def render_about():
     </div>
     """, unsafe_allow_html=True)
     
-    st.markdown("Mục tiêu")
+    st.markdown('<div class="hero-title3">Mục tiêu</div>', unsafe_allow_html=True)
     
     goals = [
         "Xây dựng web hỗ trợ sinh viên tìm quán trong bán kính 1–2km",
@@ -866,31 +877,6 @@ def render_about():
         </div>
         """, unsafe_allow_html=True)
     
-    # col1, col2 = st.columns(2)
-    
-    # with col1:
-    #     st.markdown("""
-    #     <div class="feature-card">
-    #         <h3 class="feature-title">Đối tượng</h3>
-    #         <p class="feature-description">
-    #             Sinh viên Ngoại Thương và sinh viên khu vực Chùa Láng.
-    #         </p>
-    #     </div>
-    #     """, unsafe_allow_html=True)
-    
-    # with col2:
-    #     st.markdown("""
-    #     <div class="feature-card">
-    #         <h3 class="feature-title">Công nghệ sử dụng</h3>
-    #         <ul style="font-family: 'DM Sans', sans-serif; color: #666;">
-    #             <li>Python (Streamlit)</li>
-    #             <li>Google Sheet lưu dữ liệu</li>
-    #             <li>Google Maps API</li>
-    #             <li>Pandas cho xử lý dữ liệu</li>
-    #         </ul>
-    #     </div>
-    #     """, unsafe_allow_html=True)
-
 # Page 5: Contribute
 def render_contribute():
     st.markdown('<h2 class="section-title">📩 Đóng góp dữ liệu</h2>', unsafe_allow_html=True)
