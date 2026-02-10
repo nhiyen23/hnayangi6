@@ -551,6 +551,33 @@ if 'filters' not in st.session_state:
         'time': 'Tất cả'
     }
 
+st.markdown("""
+<style>
+/* Style cho button trong navbar */
+div[data-testid="column"] button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #ff7a00;
+    border-radius: 12px;
+    padding: 12px 0;
+    border: none;
+}
+
+/* Hover effect */
+div[data-testid="column"] button:hover {
+    background-color: #e86c00;
+    color: #ffffff;
+}
+
+/* Button đang được click */
+div[data-testid="column"] button:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 122, 0, 0.4);
+}
+</style>
+""", unsafe_allow_html=True)
+
 # Navigation function
 def navigate_to(page):
     st.session_state.page = page
