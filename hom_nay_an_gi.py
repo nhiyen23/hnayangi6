@@ -503,6 +503,26 @@ restaurants_data = [
             "Ăn sáng nhanh gọn",
             "Giá rẻ, no lâu"
         ]
+    },
+    {
+        "name": "Bún cá bà Tuyết",
+        "address": "Ngõ 84 Chùa Láng",
+        "distance": "<500m",
+        "price": "<30k",
+        "type": ["Xôi"],
+        "time": ["Sáng"],
+        "rating": 4.5,
+        "hours": "6:00 - 10:00",
+        "menu": [
+            {"dish": "Xôi thịt kho", "price": "20k"},
+            {"dish": "Xôi xíu mại", "price": "20k"},
+            {"dish": "Xôi gà", "price": "25k"}
+        ],
+        "reviews": [
+            "Xôi dẻo, thịt kho đậm đà",
+            "Ăn sáng nhanh gọn",
+            "Giá rẻ, no lâu"
+        ]
     }
 ]
 
