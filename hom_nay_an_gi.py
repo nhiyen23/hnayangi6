@@ -521,7 +521,7 @@ restaurants_data = [
         "name": "Bún cá bà Tuyết",
         "address": "Ngõ 84 Chùa Láng",
         "distance": "<500m",
-        "price": "<30k",
+        "price": "40-50k",
         "type": ["Xôi"],
         "time": ["Sáng"],
         "rating": 4.5,
@@ -692,7 +692,7 @@ def render_search():
     with col2:
         price_filter = st.selectbox(
             "Mức giá",
-            ["Tất cả", "<30k", "30-50k", ">50k"],
+            ["Tất cả", "<30k", "30-40k", "40-50k", ">50k"],
             key="price_filter"
         )
     
