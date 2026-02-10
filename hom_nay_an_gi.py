@@ -74,10 +74,10 @@ st.markdown("""
     
     .hero-subtitle {
         font-family: 'Montserrat';
-        font-size: 2rem;
+        font-size: 4rem;
         color: #666;
         margin-bottom: 1.5rem;
-        font-weight: 500;
+        font-weight: 600;
         animation: fadeInDown 1s ease;
     }
     
