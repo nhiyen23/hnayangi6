@@ -848,10 +848,10 @@ def render_detail():
 # Page 4: About Project
 def render_about():
     st.markdown('<h2 class="section-title">Về dự án</h2>', unsafe_allow_html=True)
-    
+    st.markdown('<div class="hero-title3">Giới thiệu dự án</div>, unsafe_allow_html=True)
     st.markdown("""
     <div class="feature-card">
-        <div class="hero-title3">Giới thiệu dự án</div>
+        # <div class="hero-title3">Giới thiệu dự án</div>
         <p class="feature-description">
             "Hôm Nay Ăn Gì?" được xây dựng nhằm hỗ trợ sinh viên lựa chọn quán ăn phù hợp 
             quanh khu vực Chùa Láng. Dự án xuất phát từ nhu cầu thực tế của sinh viên khi 
