@@ -874,10 +874,10 @@ def render_about():
     st.markdown("""
     <div class="feature-card">
         <p class="feature-description">
-            "Hôm Nay Ăn Gì?" được xây dựng nhằm hỗ trợ sinh viên lựa chọn quán ăn phù hợp 
-            quanh khu vực Chùa Láng. Dự án xuất phát từ nhu cầu thực tế của sinh viên khi 
-            mới nhập học, gặp khó khăn trong việc tìm địa điểm ăn uống phù hợp với ngân sách 
-            và thời gian.
+            "Hôm Nay Ăn Gì?" là dự án được nhóm sinh viên Trường Đại học Ngoại thương xây dựng nhằm hỗ trợ sinh viên lựa chọn quán ăn phù hợp 
+            quanh khu vực Chùa Láng. Dự án xuất phát từ nhu cầu thực tế của sinh viên. đặc biệt là tân sinh viên khi 
+            mới nhập học gặp khó khăn trong việc tìm địa điểm ăn uống phù hợp với ngân sách 
+            và thời gian rảnh của mình.
         </p>
     </div>
     """, unsafe_allow_html=True)
