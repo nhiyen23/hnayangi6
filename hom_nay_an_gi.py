@@ -847,7 +847,7 @@ def render_detail():
 
 # Page 4: About Project
 def render_about():
-    st.markdown('<h2 class="section-title">Về dự án</h2>', unsafe_allow_html=True)
+    st.markdown('<div class="hero-title">Về dự án</div>', unsafe_allow_html=True)
     st.markdown('<div class="hero-title3">Giới thiệu dự án</div>', unsafe_allow_html=True)
     st.markdown("""
     <div class="feature-card">
