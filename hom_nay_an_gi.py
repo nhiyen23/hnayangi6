@@ -927,14 +927,14 @@ def render_contribute():
             height=150
         )
         
-        submit = st.form_submit_button("🚀 Gửi đánh giá", use_container_width=True)
+        submit = st.form_submit_button("Gửi đánh giá", use_container_width=True)
         
         if submit:
             if name and address and food_type and time_slots and review:
-                st.success("✅ Cảm ơn bạn đã đóng góp! Thông tin của bạn đã được ghi nhận.")
+                st.success("Cảm ơn bạn đã đóng góp! Thông tin của bạn đã được ghi nhận.")
                 st.balloons()
             else:
-                st.error("⚠️ Vui lòng điền đầy đủ các thông tin bắt buộc (*)")
+                st.error("Vui lòng điền đầy đủ các thông tin bắt buộc (*)")
 
 # Main App Logic
 def main():
