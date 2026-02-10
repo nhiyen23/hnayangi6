@@ -528,7 +528,6 @@ def render_home():
     # Hero Section
     st.markdown("""
     <div class="hero">
-        # <h1 class="hero-title">HÔM NAY ĂN GÌ?</h1>
         <p class="hero-title">Giới thiệu nhanh</p>
         <p class="hero-subtitle">Web hỗ trợ sinh viên lựa chọn quán ăn quanh khu vực Chùa Láng</p>
         <p class="hero-description">
