@@ -146,10 +146,11 @@ st.markdown("""
     .feature-icon {
         font-size: 3rem;
         margin-bottom: 1rem;
+        text-align: center;
     }
     
     .feature-title {
-        font-family: 'Playfair Display', serif;
+        font-family: 'Montserrat';
         font-size: 1.5rem;
         font-weight: 700;
         color: #333;
@@ -157,9 +158,10 @@ st.markdown("""
     }
     
     .feature-description {
-        font-family: 'DM Sans', sans-serif;
+        font-family: 'Montserrat';
         color: #666;
         line-height: 1.6;
+        text-align: center;
     }
     
     /* Restaurant Cards */
