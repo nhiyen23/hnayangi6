@@ -560,7 +560,7 @@ def render_home():
     #     st.write("")
     
     # About Preview
-    st.markdown('<h2 class="section-title">Đặc điểm nổi bật</h2>', unsafe_allow_html=True)
+    st.markdown('<div class="hero-title2">Đặc điểm nổi bật</div>', unsafe_allow_html=True)
     
     preview_cols = st.columns(4)
     previews = [
