@@ -97,7 +97,7 @@ st.markdown("""
         font-size: 1.5rem;
         color: #666;
         margin-bottom: 1.5rem;
-        font-weight: 600;
+        font-weight: 700;
         animation: fadeInDown 1s ease;
     }
     
