@@ -885,7 +885,7 @@ def render_about():
     st.markdown('<div class="hero-title3">Mục tiêu</div>', unsafe_allow_html=True)
     
     goals = [
-        "Xây dựng web hỗ trợ sinh viên tìm quán trong bán kính 1–2km",
+        "Hỗ trợ sinh viên tìm quán trong bán kính 0–2km",
         "Cho phép lọc theo giá, loại món, thời gian",
         "Cung cấp thông tin ngắn gọn, tập trung trải nghiệm thật",
         "Áp dụng kiến thức Python vào sản phẩm thực tế"
