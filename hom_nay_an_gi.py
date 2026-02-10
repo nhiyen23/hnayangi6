@@ -81,7 +81,6 @@ st.markdown("""
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         margin-bottom: 1rem;
-        animation: fadeInDown 1s ease;
     }
     
     .hero-subtitle {
