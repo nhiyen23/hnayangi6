@@ -667,9 +667,6 @@ def render_home():
 
 # Page 2: Search/Explore
 def render_search():
-    # Filters
-    # st.markdown('<div class="filter-section">', unsafe_allow_html=True)
-    # st.markdown("Bộ lọc")
     st.markdown('<div class="hero-title3">Bộ lọc</div>', unsafe_allow_html=True)
     
     col1, col2, col3, col4 = st.columns(4)
