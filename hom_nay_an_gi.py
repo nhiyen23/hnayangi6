@@ -655,7 +655,7 @@ def render_home():
     #         navigate_to('about')
     
     # Features Section
-    st.markdown('<h2 class="section-title">Các tính năng chính</h2>', unsafe_allow_html=True)
+    st.markdown('<div class="hero-title2">Các tính năng chính</div>', unsafe_allow_html=True)
     
     features = [
         {
