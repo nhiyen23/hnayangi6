@@ -725,7 +725,7 @@ def render_search():
             key="time_filter"
         )
     
-    if st.button("✅ Áp dụng bộ lọc", use_container_width=True):
+    if st.button("Áp dụng bộ lọc", use_container_width=True):
         st.session_state.filters = {
             'distance': distance_filter,
             'price': price_filter,
@@ -751,7 +751,7 @@ def render_search():
         filtered_restaurants = [r for r in filtered_restaurants if st.session_state.filters['time'] in r['time']]
     
     # Display results
-    st.markdown(f"### 📋 Kết quả ({len(filtered_restaurants)} quán)")
+    st.markdown(f"Kết quả ({len(filtered_restaurants)} quán)")
     
     if len(filtered_restaurants) == 0:
         st.info("Không tìm thấy quán nào phù hợp với bộ lọc của bạn. Hãy thử thay đổi tiêu chí tìm kiếm!")
@@ -769,7 +769,7 @@ def render_search():
             
             with col2:
                 # Use unique key for each button and store restaurant data before navigating
-                if st.button("👁️ Xem chi tiết", key=f"view_{restaurant['name']}", use_container_width=True):
+                if st.button("Xem chi tiết", key=f"view_{restaurant['name']}", use_container_width=True):
                     st.session_state.selected_restaurant = restaurant
                     st.session_state.page = 'detail'
                     st.rerun()
@@ -777,17 +777,17 @@ def render_search():
 # Page 3: Restaurant Detail
 def render_detail():
     if st.session_state.selected_restaurant is None:
-        st.markdown('<h2 class="section-title">⚠️ Chưa chọn quán</h2>', unsafe_allow_html=True)
+        st.markdown('<h2 class="section-title">Chưa chọn quán</h2>', unsafe_allow_html=True)
         st.info("Vui lòng chọn một quán từ trang Tìm quán để xem chi tiết!")
         st.markdown('<div style="height: 1rem;"></div>', unsafe_allow_html=True)
-        if st.button("🔍 Đi đến trang Tìm quán", use_container_width=True):
+        if st.button("Đi đến trang Tìm quán", use_container_width=True):
             navigate_to('search')
         return
     
     restaurant = st.session_state.selected_restaurant
     
     # Back button
-    if st.button("⬅️ Quay lại danh sách"):
+    if st.button("Quay lại danh sách"):
         navigate_to('search')
     
     st.markdown(f'<h2 class="section-title">{restaurant["name"]}</h2>', unsafe_allow_html=True)
