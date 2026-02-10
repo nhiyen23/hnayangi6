@@ -38,17 +38,6 @@ st.markdown("""
         text-align: center;
         margin: 1rem 0 2rem 0;
     }
-
-    .navbar-title2 {
-        font-family: 'Montserrat';
-        font-size: 2.5rem;
-        font-weight: 900;
-        background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        text-align: center;
-        margin: 1rem 0 2rem 0;
-    }
     
     /* Hero Section */
     .hero {
@@ -72,7 +61,7 @@ st.markdown("""
     }
 
     .hero-title2 {
-        font-family: 'Montserrat';
+        font-family: 'Playfair Display';
         font-size: 3rem;
         font-weight: 800;
         text-align: center;
