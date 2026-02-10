@@ -83,7 +83,7 @@ st.markdown("""
 
     .hero-subtitle2 {
         font-family: 'Montserrat';
-        font-size: 4rem;
+        font-size: 2rem;
         color: #666;
         margin-bottom: 1.5rem;
         font-weight: 600;
