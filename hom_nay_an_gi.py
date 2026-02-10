@@ -646,7 +646,7 @@ def render_home():
         {
             "icon": "🔍",
             "title": "Tìm kiếm thông minh",
-            "description": "Lọc quán theo giá, khoảng cách, loại món và thời gian ăn."
+            "description": "Lọc quán ăn theo nhiều tiêu chí."
         },
         {
             "icon": "📍",
