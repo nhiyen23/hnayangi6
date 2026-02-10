@@ -74,7 +74,7 @@ st.markdown("""
 
     .hero-title3 {
         font-family: 'Playfair Display';
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-weight: 600;
         background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
         -webkit-background-clip: text;
@@ -851,7 +851,7 @@ def render_about():
     
     st.markdown("""
     <div class="feature-card">
-        <h3 class="feature-title">Giới thiệu dự án</h3>
+        <div class="hero-title3">Giới thiệu dự án</div>
         <p class="feature-description">
             "Hôm Nay Ăn Gì?" được xây dựng nhằm hỗ trợ sinh viên lựa chọn quán ăn phù hợp 
             quanh khu vực Chùa Láng. Dự án xuất phát từ nhu cầu thực tế của sinh viên khi 
