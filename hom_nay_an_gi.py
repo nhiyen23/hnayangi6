@@ -150,12 +150,20 @@ st.markdown("""
     
     .feature-card {
         background: white;
-        padding: 2rem;
+        padding: 30px;
         border-radius: 20px;
         box-shadow: 0 5px 20px rgba(0,0,0,0.08);
         transition: all 0.3s ease;
         border: 2px solid transparent;
+        margin-bottom: 24px;
     }
+
+    # .feature-card {
+    #     background: white;
+    #     border-radius: 20px;
+    #     padding: 30px;
+    #     margin-bottom: 24px;
+    # }
     
     .feature-card:hover {
         transform: translateY(-5px);
@@ -617,18 +625,6 @@ def render_home():
         </p>
     </div>
     """, unsafe_allow_html=True)
-    
-    # # CTA Buttons
-    # col1, col2, col3 = st.columns([1, 1, 1])
-    # with col1:
-    #     st.write("")
-    # with col2:
-    #     if st.button("🔍 Bắt đầu tìm quán", key="cta_search", use_container_width=True):
-    #         navigate_to('search')
-    #     if st.button("📋 Xem danh sách quán", key="cta_list", use_container_width=True):
-    #         navigate_to('search')
-    # with col3:
-    #     st.write("")
     
     # About Preview
     st.markdown('<div class="hero-title2">Đặc điểm nổi bật</div>', unsafe_allow_html=True)
