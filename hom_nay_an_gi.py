@@ -62,7 +62,7 @@ st.markdown("""
 
     .hero-title2 {
         font-family: 'Playfair Display';
-        font-size: 3rem;
+        font-size: 4rem;
         font-weight: 800;
         text-align: center;
         background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
