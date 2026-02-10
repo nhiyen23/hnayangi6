@@ -736,8 +736,17 @@ def render_search():
         filtered_restaurants = [r for r in filtered_restaurants if st.session_state.filters['time'] in r['time']]
     
     # Display results
-    st.markdown(f"Kết quả ({len(filtered_restaurants)} quán)")
-    
+    # st.markdown(f"Kết quả ({len(filtered_restaurants)} quán)")
+    # st.markdown('<h2 class="section-title">Chưa chọn quán</h2>', unsafe_allow_html=True)
+    st.markdown(
+        f'''
+        <div class="hero-title3">
+            Kết quả ({len(filtered_restaurants)} quán)
+        </div>
+        ''',
+        unsafe_allow_html=True
+    )
+        
     if len(filtered_restaurants) == 0:
         st.info("Không tìm thấy quán nào phù hợp với bộ lọc của bạn. Hãy thử thay đổi tiêu chí tìm kiếm!")
     else:
