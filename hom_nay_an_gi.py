@@ -53,7 +53,7 @@ st.markdown("""
         text-align: center;
         font-family: 'Montserrat';
         font-size: 3rem;
-        font-weight: 700;
+        font-weight: 900;
         background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
