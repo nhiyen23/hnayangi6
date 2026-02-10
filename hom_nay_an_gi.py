@@ -175,6 +175,7 @@ st.markdown("""
         font-weight: 700;
         color: #333;
         margin-bottom: 0.5rem;
+        text-align: center;
     }
     
     .feature-description {
@@ -649,11 +650,6 @@ def render_home():
             </div>
             """, unsafe_allow_html=True)
     
-    # col1, col2, col3 = st.columns([1, 1, 1])
-    # with col2:
-    #     if st.button("📖 Tìm hiểu thêm", key="learn_more", use_container_width=True):
-    #         navigate_to('about')
-    
     # Features Section
     st.markdown('<div class="hero-title2">Các tính năng chính</div>', unsafe_allow_html=True)
     
@@ -686,7 +682,7 @@ def render_home():
             st.markdown(f"""
             <div class="feature-card">
                 <div class="feature-icon">{feature['icon']}</div>
-                <h3 class="feature-title">{feature['title']}</h3>
+                <div class="feature-title">{feature['title']}</div>
                 <p class="feature-description">{feature['description']}</p>
             </div>
             """, unsafe_allow_html=True)
