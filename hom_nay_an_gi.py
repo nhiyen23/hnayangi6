@@ -355,7 +355,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# Sample data - Dữ liệu mẫu về quán ăn
+# Dữ liệu về quán ăn
 restaurants_data = [
     {
         "name": "Cơm Tấm Sườn Bì Chả",
