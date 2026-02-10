@@ -50,7 +50,7 @@ st.markdown("""
     }
     
     .hero-title {
-        font-family: 'Playfair Display', serif;
+        font-family: 'Montserrat';
         font-size: 4rem;
         font-weight: 900;
         background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
@@ -61,7 +61,7 @@ st.markdown("""
     }
     
     .hero-subtitle {
-        font-family: 'DM Sans', sans-serif;
+        font-family: 'Montserrat';
         font-size: 1.5rem;
         color: #666;
         margin-bottom: 1.5rem;
@@ -69,7 +69,7 @@ st.markdown("""
     }
     
     .hero-description {
-        font-family: 'DM Sans', sans-serif;
+        font-family: 'Montserrat';
         font-size: 1.1rem;
         color: #777;
         max-width: 1000px;
