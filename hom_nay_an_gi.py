@@ -521,7 +521,7 @@ def render_navbar():
             if st.button(page_name, key=f"nav_{page_key}", use_container_width=True):
                 navigate_to(page_key)
 
-Page 1: Home
+# Page 1: Home
 def render_home():
     # Hero Section
     st.markdown("""
