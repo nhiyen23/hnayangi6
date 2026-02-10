@@ -894,7 +894,7 @@ def render_about():
     for goal in goals:
         st.markdown(f"""
         <div class="restaurant-card">
-            <p>{goal}</p>
+            <p class="feature-description">{goal}</p>
         </div>
         """, unsafe_allow_html=True)
     
