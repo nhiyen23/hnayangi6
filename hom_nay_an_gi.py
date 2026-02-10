@@ -552,7 +552,7 @@ def render_home():
     st.markdown("""
     <div class="hero">
         <div class="hero-title2">Giới thiệu nhanh</div>
-        <div class="hero-subtitle2">Web hỗ trợ sinh viên lựa chọn quán ăn quanh khu vực Chùa Láng</div>
+        <div class="hero-subtitle2">Website hỗ trợ sinh viên lựa chọn quán ăn quanh khu vực Chùa Láng</div>
         <p class="hero-description">
             "Hôm Nay Ăn Gì?" là nền tảng giúp sinh viên, đặc biệt là sinh viên Ngoại Thương, nhanh chóng tìm được quán ăn phù hợp trong bán kính 1–2km quanh Chùa Láng dựa trên giá cả, thời gian, khoảng cách và trải nghiệm thực tế từ sinh viên.
         </p>
