@@ -699,7 +699,7 @@ def render_search():
     with col3:
         type_filter = st.selectbox(
             "Loại món",
-            ["Tất cả", "Cơm", "Bún/Phở/Miến/Bánh canh", "Gà/Thịt chiên", "Đồ Hàn", "Nem nướng", "Bánh mì", "Bánh tráng", "Tacos", "Bánh cuốn"],
+            ["Tất cả", "Cơm", "Bún/Phở/Miến/Bánh canh/Súp", "Gà/Thịt chiên", "Đồ Hàn", "Nem nướng", "Bánh mì", "Bánh tráng", "Tacos", "Bánh cuốn"],
             key="type_filter"
         )
     
