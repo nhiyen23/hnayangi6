@@ -848,7 +848,6 @@ def render_detail():
 
 # Page 4: About Project
 def render_about():
-    st.markdown('<div class="hero-title">VỀ DỰ ÁN</div>', unsafe_allow_html=True)
     st.markdown('<div class="hero-title3">Giới thiệu dự án</div>', unsafe_allow_html=True)
     st.markdown("""
     <div class="feature-card">
@@ -878,18 +877,7 @@ def render_about():
         """, unsafe_allow_html=True)
     
 # Page 5: Contribute
-def render_contribute():
-    st.markdown('<h2 class="section-title">📩 Đóng góp dữ liệu</h2>', unsafe_allow_html=True)
-    
-    st.markdown("""
-    <div class="feature-card">
-        <p class="feature-description">
-            Bạn biết quán ăn ngon quanh Chùa Láng? Hãy chia sẻ với cộng đồng sinh viên! 
-            Thông tin của bạn sẽ giúp ích cho rất nhiều bạn sinh viên khác.
-        </p>
-    </div>
-    """, unsafe_allow_html=True)
-    
+def render_contribute():   
     with st.form("contribute_form"):
         st.markdown("### 📝 Thông tin quán ăn")
         
