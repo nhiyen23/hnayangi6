@@ -166,7 +166,7 @@ st.markdown("""
     
     .feature-icon {
         font-size: 3rem;
-        margin-bottom: 12px;
+        margin-bottom: 6px;
         text-align: center;
     }
     
