@@ -787,7 +787,7 @@ def render_detail():
     restaurant = st.session_state.selected_restaurant
     
     # Back button
-    if st.button("<- Quay lại danh sách"):
+    if st.button("<-  Quay lại danh sách"):
         navigate_to('search')
     
     st.markdown(f'<h2 class="section-title">{restaurant["name"]}</h2>', unsafe_allow_html=True)
