@@ -879,7 +879,7 @@ def render_about():
 # Page 5: Contribute
 def render_contribute():   
     with st.form("contribute_form"):
-        st.markdown("### 📝 Thông tin quán ăn")
+        st.markdown('<div class="hero-title3">Thông tin quán ăn</div>', unsafe_allow_html=True)
         
         col1, col2 = st.columns(2)
         
