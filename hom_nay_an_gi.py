@@ -528,7 +528,8 @@ def render_home():
     # Hero Section
     st.markdown("""
     <div class="hero">
-        <h1 class="hero-title">HÔM NAY ĂN GÌ?</h1>
+        # <h1 class="hero-title">HÔM NAY ĂN GÌ?</h1>
+        <p class="hero-title">Giới thiệu nhanh</p>
         <p class="hero-subtitle">Web hỗ trợ sinh viên lựa chọn quán ăn quanh khu vực Chùa Láng</p>
         <p class="hero-description">
             "Hôm Nay Ăn Gì?" là nền tảng giúp sinh viên, đặc biệt là sinh viên Ngoại Thương, nhanh chóng tìm được quán ăn phù hợp trong bán kính 1–2km quanh Chùa Láng dựa trên giá cả, thời gian, khoảng cách và trải nghiệm thực tế từ sinh viên.
@@ -549,7 +550,7 @@ def render_home():
     #     st.write("")
     
     # About Preview
-    st.markdown('<h2 class="section-title">Giới thiệu nhanh</h2>', unsafe_allow_html=True)
+    st.markdown('<h2 class="section-title">Đặc điểm nổi bật</h2>', unsafe_allow_html=True)
     
     preview_cols = st.columns(4)
     previews = [
