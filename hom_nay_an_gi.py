@@ -150,20 +150,13 @@ st.markdown("""
     
     .feature-card {
         background: white;
-        padding: 30px;
+        padding: 18px 20px;
         border-radius: 20px;
         box-shadow: 0 5px 20px rgba(0,0,0,0.08);
         transition: all 0.3s ease;
         border: 2px solid transparent;
         margin-bottom: 24px;
     }
-
-    # .feature-card {
-    #     background: white;
-    #     border-radius: 20px;
-    #     padding: 30px;
-    #     margin-bottom: 24px;
-    # }
     
     .feature-card:hover {
         transform: translateY(-5px);
