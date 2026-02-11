@@ -364,7 +364,6 @@ restaurants_data = [
         "price": "25-35k",
         "type": ["Cơm"],
         "time": ["Sáng", "Trưa", "Tối"],
-        "rating": 4.5,
         "hours": "6:00 - 22:00",
         "menu": [
             {"dish": "Cơm tấm sườn", "price": "30k"},
