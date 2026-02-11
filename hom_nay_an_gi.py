@@ -74,7 +74,7 @@ st.markdown("""
     }
 
     .hero-title3 {
-        font-family: 'Playfair Display';
+        font-family: 'Montserrat';
         font-size: 2rem;
         font-weight: 600;
         background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
