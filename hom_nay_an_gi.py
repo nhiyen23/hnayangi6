@@ -358,17 +358,17 @@ st.markdown("""
 # Dữ liệu về quán ăn
 restaurants_data = [
     {
-        "name": "Cơm Tấm Sườn Bì Chả",
-        "address": "123 Chùa Láng, Đống Đa",
+        "name": "Quán Đức Quân",
+        "address": "Số 2 Ngõ 84 Chùa Láng",
         "distance": "<500m",
-        "price": "25-35k",
-        "type": ["Cơm"],
+        "price": "30-40k",
+        "type": ["Bún/Phở/Miến/Bánh canh/Súp"],
         "time": ["Sáng", "Trưa", "Tối"],
-        "hours": "6:00 - 22:00",
+        "hours": "5:00 - 0:00",
         "menu": [
-            {"dish": "Cơm tấm sườn", "price": "30k"},
-            {"dish": "Cơm tấm bì", "price": "25k"},
-            {"dish": "Cơm tấm trứng", "price": "20k"}
+            {"dish": "Bún chả nướng chấm-chan", "price": "35k"},
+            {"dish": "Bún, miến, bánh đa trộn", "price": "35k"},
+            {"dish": "Bún, miến, bánh đa riêu cua, cá, bò, mọc, chả lá lốt, thập cẩm", "price": "35k"}
         ],
         "reviews": [
             {"name": "Minh Anh", "rating": 5, "content": "Rất ngon!"},
