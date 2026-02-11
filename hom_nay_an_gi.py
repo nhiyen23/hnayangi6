@@ -372,9 +372,12 @@ restaurants_data = [
             {"dish": "Cơm tấm trứng", "price": "20k"}
         ],
         "reviews": [
-            "Giá rẻ, phục vụ nhanh, hợp ăn trưa",
-            "Sườn mềm, chả ngon, cơm dẻo",
-            "Quán gần trường, đông sinh viên"
+            # "Giá rẻ, phục vụ nhanh, hợp ăn trưa",
+            # "Sườn mềm, chả ngon, cơm dẻo",
+            # "Quán gần trường, đông sinh viên"
+            {"name": "Minh Anh", "rating": 5, "content": "Rất ngon!"},
+            {"name": "Hoàng Long", "rating": 4, "content": "Phục vụ tốt."},
+            {"name": "Thu Hà", "rating": 5, "content": "Sẽ quay lại!"}
         ]
     },
     {
@@ -848,17 +851,36 @@ def render_detail():
     reviewers = ["Nguyễn Văn A", "Trần Thị B", "Lê Văn C"]
     ratings = [5, 4, 5]
     
-    for idx, review in enumerate(restaurant['reviews']):
-        stars = "⭐" * ratings[idx % len(ratings)]
-        st.markdown(f"""
-        <div style="margin-bottom: 1.5rem;">
-            <div style="margin-bottom: 0.5rem;">
-                <span style="font-family: 'DM Sans', sans-serif; color: #ffa500; font-size: 1.2rem;">{stars}</span>
-                <span style="font-family: 'DM Sans', sans-serif; color: #333; font-weight: 700; margin-left: 0.5rem;">- {reviewers[idx % len(reviewers)]}</span>
-            </div>
-            <p style="font-family: 'DM Sans', sans-serif; color: #666; font-style: italic; margin-left: 0;">"{review}"</p>
+    # for idx, review in enumerate(restaurant['reviews']):
+    #     stars = "⭐" * ratings[idx % len(ratings)]
+    #     st.markdown(f"""
+    #     <div style="margin-bottom: 1.5rem;">
+    #         <div style="margin-bottom: 0.5rem;">
+    #             <span style="font-family: 'DM Sans', sans-serif; color: #ffa500; font-size: 1.2rem;">{stars}</span>
+    #             <span style="font-family: 'DM Sans', sans-serif; color: #333; font-weight: 700; margin-left: 0.5rem;">- {reviewers[idx % len(reviewers)]}</span>
+    #         </div>
+    #         <p style="font-family: 'DM Sans', sans-serif; color: #666; font-style: italic; margin-left: 0;">"{review}"</p>
+    #     </div>
+    #     """, unsafe_allow_html=True)
+
+    for review in restaurant["reviews"]:
+    stars = "⭐" * review["rating"]
+
+    st.markdown(f"""
+    <div style="margin-bottom: 1.5rem;">
+        <div style="margin-bottom: 0.5rem;">
+            <span style="color:#ffa500; font-size:1.2rem;">
+                {stars}
+            </span>
+            <span style="font-weight:700; margin-left:0.5rem;">
+                - {review["name"]}
+            </span>
         </div>
-        """, unsafe_allow_html=True)
+        <p style="color:#666; font-style:italic;">
+            "{review["content"]}"
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
 
 # Page 4: About Project
 def render_about():
