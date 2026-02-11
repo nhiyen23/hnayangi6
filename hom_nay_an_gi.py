@@ -866,21 +866,21 @@ def render_detail():
     for review in restaurant["reviews"]:
         stars = "⭐" * review["rating"]
 
-    st.markdown(f"""
-    <div style="margin-bottom: 1.5rem;">
-        <div style="margin-bottom: 0.5rem;">
-            <span style="color:#ffa500; font-size:1.2rem;">
-                {stars}
-            </span>
-            <span style="font-weight:700; margin-left:0.5rem;">
-                - {review["name"]}
-            </span>
+        st.markdown(f"""
+        <div style="margin-bottom: 1.5rem;">
+            <div style="margin-bottom: 0.5rem;">
+                <span style="color:#ffa500; font-size:1.2rem;">
+                    {stars}
+                </span>
+                <span style="font-weight:700; margin-left:0.5rem;">
+                    - {review["name"]}
+                </span>
+            </div>
+            <p style="color:#666; font-style:italic;">
+                "{review["content"]}"
+            </p>
         </div>
-        <p style="color:#666; font-style:italic;">
-            "{review["content"]}"
-        </p>
-    </div>
-    """, unsafe_allow_html=True)
+        """, unsafe_allow_html=True)
 
 # Page 4: About Project
 def render_about():
