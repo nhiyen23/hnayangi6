@@ -864,7 +864,7 @@ def render_detail():
     #     """, unsafe_allow_html=True)
 
     for review in restaurant["reviews"]:
-    stars = "⭐" * review["rating"]
+        stars = "⭐" * review["rating"]
 
     st.markdown(f"""
     <div style="margin-bottom: 1.5rem;">
