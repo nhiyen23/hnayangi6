@@ -848,8 +848,8 @@ def render_detail():
     st.markdown('<h3 style="font-family: \'Playfair Display\', serif; font-size: 1.8rem; margin-bottom: 1rem;">Đánh giá từ sinh viên</h3>', unsafe_allow_html=True)
     
     # Reviewer names
-    reviewers = ["Nguyễn Văn A", "Trần Thị B", "Lê Văn C"]
-    ratings = [5, 4, 5]
+    # reviewers = ["Nguyễn Văn A", "Trần Thị B", "Lê Văn C"]
+    # ratings = [5, 4, 5]
     
     # for idx, review in enumerate(restaurant['reviews']):
     #     stars = "⭐" * ratings[idx % len(ratings)]
