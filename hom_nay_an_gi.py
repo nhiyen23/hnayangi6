@@ -62,9 +62,9 @@ st.markdown("""
     }
 
     .hero-title2 {
-        font-family: 'Inter';
+        font-family: 'Montserrat';
         font-size: 3rem;
-        font-weight: 800;
+        font-weight: 700;
         text-align: center;
         background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
         -webkit-background-clip: text;
