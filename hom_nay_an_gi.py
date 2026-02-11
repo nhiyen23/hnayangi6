@@ -372,9 +372,6 @@ restaurants_data = [
             {"dish": "Cơm tấm trứng", "price": "20k"}
         ],
         "reviews": [
-            # "Giá rẻ, phục vụ nhanh, hợp ăn trưa",
-            # "Sườn mềm, chả ngon, cơm dẻo",
-            # "Quán gần trường, đông sinh viên"
             {"name": "Minh Anh", "rating": 5, "content": "Rất ngon!"},
             {"name": "Hoàng Long", "rating": 4, "content": "Phục vụ tốt."},
             {"name": "Thu Hà", "rating": 5, "content": "Sẽ quay lại!"}
