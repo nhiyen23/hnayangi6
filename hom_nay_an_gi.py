@@ -664,7 +664,7 @@ restaurants_data = [
       { "dish": "Xôi trứng thịt", "price": "25k-30k" },
       { "dish": "Xôi chả ruốc", "price": "25k-30k" },
       { "dish": "Xôi pate lạp xưởng", "price": "25k-30k" },
-      { "dish": "Xôi da gà xốt chua cay", "price": "25k-30k" }
+      { "dish": "Xôi da gà xốt chua cay", "price": "25k-30k" },
       { "dish": "Gà ác tần", "price": "65k" },
       { "dish": "Gà ta tần", "price": "65k" },
       { "dish": "Mì / miến gà tần", "price": "70k" },
