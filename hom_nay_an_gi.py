@@ -558,7 +558,7 @@ restaurants_data = [
           {"dish": "Cơm Thố Bò + Xá Xíu", "price": "60k" },
           {"dish": "Cơm Thố Bò + Gà", "price": "60k" },
           {"dish": "Cơm Thố Đặc Biệt (Bò + Gà + Xá Xíu + Trứng)", "price": "70k"}
-        ]
+        ],
         "reviews": [
             {"name": "Minh Anh", "rating": 5, "content": "Rất ngon!"},
             {"name": "Hoàng Long", "rating": 4, "content": "Phục vụ tốt."},
