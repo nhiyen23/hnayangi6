@@ -673,6 +673,18 @@ restaurants_data = [
       { "dish": "Chân gà tần", "price": "20k" },
       { "dish": "Trứng vịt lộn tần", "price": "10k/quả" }
       ]
+  "reviews": [
+    {
+     "name": "Huyền Linh Vũ",
+     "rating": 5,
+     "content": "Quán rất cute, phục vụ nhanh và nhiệt tình. Giá cả rẻ, khẩu phần nhiều. Quán mở cũng khá muộn, đi mùa hè còn được ngồi điều hoà sạch sẽ. Vì mình thấy quán cũng vắng khách nên sẽ không chê, vì giá cả với đồ ăn như vậy là quá ok rồi."
+    },
+    {
+     "name": "Hiền Thu",
+     "rating": 4,
+     "content": "Quán đã cải thiện khá nhiều. Lần đầu mình ăn thật sự khá khó ăn, bị ngán và xôi dính, nhưng lần này quay lại chất lượng xôi đã thay đổi nhiều, dễ ăn hơn."
+    }
+  ]
   },
 
 
