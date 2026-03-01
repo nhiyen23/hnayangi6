@@ -676,7 +676,7 @@ restaurants_data = [
       },
       {
       "name": "Tung Dao",
-      "rating": 4.5,
+      "rating": 4,
       "content": "Chất lượng đồ ăn ổn, gà rán và tok khá ấn tượng. Giá hợp lý tầm 150-200k/người, nhân viên phục vụ tốt, không gian sạch sẽ mát mẻ. Nhìn chung khá ưng và sẽ quay lại."
       }
   ]
