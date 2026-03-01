@@ -601,15 +601,14 @@ restaurants_data = [
         ]
      },
      {
-          "name": "Kofuku - Tiệm cơm mì",
-          "address": "2 Ngõ 106 Phố Chùa Láng",
-          "distance": "220m",
-          "price": "35k-55k",
-          "type": ["Cơm"],
-          "time": ["Trưa", "Tối"],
-          "hours": "10:00 - 14:00, 15:00 - 21:00",
-          "menu": {
-          "main": [
+        "name": "Kofuku - Tiệm cơm mì",
+        "address": "2 Ngõ 106 Phố Chùa Láng",
+        "distance": "220m",
+        "price": "35k-55k",
+        "type": ["Cơm/Xôi/Cháo"],
+        "time": ["Trưa", "Tối"],
+        "hours": "10:00 - 14:00, 15:00 - 21:00",
+        "menu": [
               { "dish": "Cơm Katsudon", "price": "55k" },
               { "dish": "Cơm gà Oyakodon", "price": "45k" },
               { "dish": "Cơm cari", "price": "35k" },
@@ -621,24 +620,19 @@ restaurants_data = [
               { "dish": "Cơm thịt heo", "price": "50k" },
               { "dish": "Cơm cari tôm chiên", "price": "45k" },
               { "dish": "Cơm cari trứng ngâm tương", "price": "40k" }
-            ],
-            "topping": [
               { "dish": "Trứng ngâm tương", "price": "8k/quả" },
               { "dish": "Trứng Ontama", "price": "8k/quả" },
               { "dish": "Kim chi", "price": "10k" },
               { "dish": "Tôm chiên", "price": "10k/3 con" },
               { "dish": "Tonkatsu", "price": "30k/cái" },
               { "dish": "Gà Karaage", "price": "30k/5 cái" }
-            ],
-            "drink": [
               { "dish": "Trà tắc", "price": "10k" },
               { "dish": "Trà chanh", "price": "10k" },
               { "dish": "Trà bát bảo", "price": "10k" },
               { "dish": "Trà Olong", "price": "10k" },
               { "dish": "Coca", "price": "15k/lon" }
-            ]
-          },
-          "reviews": [
+         ],
+         "reviews": [
             {
               "name": "Linh Nhi",
               "rating": 4,
@@ -655,7 +649,7 @@ restaurants_data = [
               "content": "Cơm cà ri tonkatsu ngon lắm, thịt chiên xù giòn, cơm dẻo. Giá sinh viên tầm 50–65k/món. Không gian hơi nhỏ."
             }
             ]
-        }, 
+    }, 
 
 ]
 
