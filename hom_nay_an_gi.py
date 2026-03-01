@@ -650,6 +650,30 @@ restaurants_data = [
             }
             ]
     }, 
+  {
+  "name": "Oanh Oanh - Xôi xéo - Gà tần",
+  "address": "38 Nguyễn Chí Thanh",
+  "distance": "750m",
+  "price": "20k-45k",
+  "type": ["Cơm/Xôi/Cháo"],
+  "time": ["Sáng", "Trưa"],
+  "menu": [
+      { "dish": "Xôi xéo hành mỡ đỗ", "price": "20k" },
+      { "dish": "Xôi thập cẩm", "price": "45k" },
+      { "dish": "Xôi gà nấm", "price": "25k-30k" },
+      { "dish": "Xôi trứng thịt", "price": "25k-30k" },
+      { "dish": "Xôi chả ruốc", "price": "25k-30k" },
+      { "dish": "Xôi pate lạp xưởng", "price": "25k-30k" },
+      { "dish": "Xôi da gà xốt chua cay", "price": "25k-30k" }
+      { "dish": "Gà ác tần", "price": "65k" },
+      { "dish": "Gà ta tần", "price": "65k" },
+      { "dish": "Mì / miến gà tần", "price": "70k" },
+      { "dish": "Mề tần", "price": "25k" },
+      { "dish": "Chân gà tần", "price": "20k" },
+      { "dish": "Trứng vịt lộn tần", "price": "10k/quả" }
+      ]
+  },
+
 
 ]
 
