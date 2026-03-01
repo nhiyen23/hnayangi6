@@ -815,7 +815,7 @@ restaurants_data = [
 "reviews": [
       {
       "name": "Thanh Hoài",
-      "rating": 4.5,
+      "rating": 4,
       "content": "Đồ ăn ngon, gà nêm nếm vừa miệng, món ăn kèm ổn không bị ngán. Không gian hơi xanh, ánh sáng chưa hợp chụp hình. Giờ cao điểm chỗ để xe hơi ít, nhìn chung là quán ăn ngon, phù hợp đi ăn nhẹ hoặc tụ tập bạn bè."
       },
       {
@@ -852,12 +852,12 @@ restaurants_data = [
 "reviews": [
       {
       "name": "Hiền Bùi",
-      "rating": 3.5,
+      "rating": 3,
       "content": "Gà xào cay ngon, panchan cho nhiều nhưng quầy line buffet nguội, đợi khoảng 10 phút."
       },
       {
       "name": "Linh Nguyễn",
-      "rating": 3.5,
+      "rating": 3,
       "content": "Đồ ăn mức trung bình phù hợp giá sinh viên, nên gọi set cho tiết kiệm. Món nhiều nhưng nêm nếm chưa tới, panchan nhiều nhưng không ngon. Không gian có dấu hiệu xuống cấp, bù lại nhân viên phục vụ nhanh và nhiệt tình."
       }
   ]
@@ -913,7 +913,7 @@ restaurants_data = [
 "reviews": [
       {
       "name": "Thu Trang Nguyễn",
-      "rating": 4.5,
+      "rating": 4,
       "content": "Ăn thử bánh nhân bò xay, nhân khá đầy đặn so với mức giá. Sốt ngon, sẽ quay lại."
       }
   ]
