@@ -535,6 +535,34 @@ restaurants_data = [
             "Ăn sáng nhanh gọn",
             "Giá rẻ, no lâu"
         ]
+    },
+    {
+    "name": "Cơm Thố Anh Nguyễn",
+    "address": "Số 17 Chùa Láng",
+    "phone": "0972489933",
+    "distance": "220m",
+    "price": ["30-40k", "40-50k", ">50k"],
+    "price_focus": "35k-50k",
+    "type": ["Cơm"],
+    "time": ["Trưa", "Tối"],
+    "hours": "9:45 - 21:45",
+    "menu": [
+      { "dish": "Cơm Thố Dương Châu", "price": "35k" },
+      { "dish": "Cơm Thố Ốp La", "price": "35k" },
+      { "dish": "Cơm Thố Gà", "price": "45k" },
+      { "dish": "Cơm Thố Gà Quay", "price": "45k" },
+      { "dish": "Cơm Thố Gà Nướng", "price": "45k", "tag": "Best seller top2" },
+      { "dish": "Cơm Thố Bò", "price": "50k", "tag": "Best seller top3" },
+      { "dish": "Cơm Thố Sườn Sụn", "price": "50k" },
+      { "dish": "Cơm Thố Xá Xíu", "price": "50k", "tag": "Best seller top1" },
+      { "dish": "Cơm Thố Gà + Xá Xíu", "price": "55k" },
+      { "dish": "Cơm Thố Bò + Xá Xíu", "price": "60k" },
+      { "dish": "Cơm Thố Bò + Gà", "price": "60k" },
+      {
+        "dish": "Cơm Thố Đặc Biệt (Bò + Gà + Xá Xíu + Trứng)",
+        "price": "70k"
+      }
+    ]
     }
 ]
 
