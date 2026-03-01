@@ -625,7 +625,7 @@ restaurants_data = [
               { "dish": "Kim chi", "price": "10k" },
               { "dish": "Tôm chiên", "price": "10k/3 con" },
               { "dish": "Tonkatsu", "price": "30k/cái" },
-              { "dish": "Gà Karaage", "price": "30k/5 cái" }
+              { "dish": "Gà Karaage", "price": "30k/5 cái" },
               { "dish": "Trà tắc", "price": "10k" },
               { "dish": "Trà chanh", "price": "10k" },
               { "dish": "Trà bát bảo", "price": "10k" },
