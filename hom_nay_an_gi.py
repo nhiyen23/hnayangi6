@@ -686,8 +686,938 @@ restaurants_data = [
     }
   ]
   },
-
-
+  {
+  "name": "Xôi Sùng sục - Chà Bá lửa",
+  "address": "Số 1 ngõ 59 Chùa Láng (SĐT: 0264285214)",
+  "distance": "350m",
+  "price": "20k-60k",
+  "type": ["Xôi"],
+  "time": ["Sáng", "Trưa", "Tối"],
+  "hours": "8:00 - 22:00",
+  "menu": [
+      {"dish": "Xôi ruốc hành", "price": "20k"},
+      {"dish": "Xôi ruốc hành rong biển", "price": "25k"},
+      {"dish": "Xôi gà xé bơ tỏi", "price": "25k"},
+      {"dish": "Xôi đặc biệt trứng rán + Coca", "price": "40k"},
+      {"dish": "Xôi gà nướng trứng rán + Coca", "price": "50k"},
+      {"dish": "Xôi đùi gà", "price": "55k"},
+      {"dish": "Xôi gà nướng tứ xuyên", "price": "45k"},
+      {
+        "dish": "Xôi fulltopping (đùi gà, trứng ốp, 4 lạp xưởng, ruốc, hành, giò, gà nướng tứ xuyên, 3 nem ram)",
+        "price": "60k"
+      }
+  ],
+  "reviews": [
+    {
+     "name": "Huyền Linh Vũ",
+     "rating": 5,
+     "content": "Quán rất cute, phục vụ nhanh và nhiệt tình. Giá cả rẻ, khẩu phần nhiều. Quán mở cũng khá muộn, đi mùa hè còn được ngồi điều hoà sạch sẽ. Vì mình thấy quán cũng vắng khách nên sẽ không chê, vì giá cả với đồ ăn như vậy là quá ok rồi."
+    },
+    {
+     "name": "Hiền Thu",
+     "rating": 4,
+     "content": "Quán đã cải thiện khá nhiều. Lần đầu mình ăn thật sự khá khó ăn, bị ngán và xôi dính, nhưng lần này quay lại chất lượng xôi đã thay đổi nhiều, dễ ăn hơn."
+    }
+  ]
+ },
+ {
+ "name": "Punnata - Cháo se nghệ nhân (Cơ sở 2)",
+ "address": "66 Chùa Láng (SĐT: 0916516738)",
+ "distance": "300m",
+ "price": "35k-55k",
+ "type": ["Cháo"],
+ "time": ["Sáng", "Trưa"],
+ "hours": "",
+ "menu": [
+      {"dish": "Cháo se sườn sụn", "price": "35k"},
+      {"dish": "Cháo se đặc biệt", "price": "55k"},
+      {"dish": "Quẩy giòn", "price": "5k"},
+      {"dish": "Trứng bắc thảo", "price": "15k"},
+      {"dish": "Ruốc cá hồi", "price": "15k"},
+      {"dish": "Ruốc tôm", "price": "15k"},
+      {"dish": "Ruốc bề bề", "price": "15k"},
+      {"dish": "Ruốc nấm", "price": "10k"},
+      {"dish": "Ruốc heo", "price": "10k"},
+      {"dish": "Thêm sườn sụn", "price": "15k"},
+      {"dish": "Thịt băm", "price": "10k"}
+  ],
+  "reviews": [
+      {
+        "name": "Mầm đậu",
+        "rating": 5,
+        "content": "Ăn ở đây 2 lần rồi, ổn áp lắm luôn"
+      },
+      {
+        "name": "Bảo Châu",
+        "rating": 4,
+        "content": "Nhiều người chê nhưng ngon mà, chất lắm ý"
+      }
+   ]
+ },
+ {
+ "name": "Kim Mari Chicken",
+ "address": "100 Phố Chùa Láng",
+ "distance": "74m",
+ "price": "120k-170k",
+ "type": ["Đồ Hàn"],
+ "time": ["Trưa", "Tối"],
+ "hours": "10:00 - 22:30",
+ "menu": [
+      {"dish": "Gà rán", "price": "150k"},
+      {"dish": "Gà sốt ngọt", "price": "160k"},
+      {"dish": "Gà lắc phô mai", "price": "160k"},
+      {"dish": "Gà sốt teriyaki", "price": "160k"},
+      {"dish": "Gà sốt rau mùi", "price": "170k"},
+      {"dish": "Gà sốt kim chi", "price": "170k"},
+      {"dish": "Gà sốt kem hành", "price": "170k"},
+      {"dish": "Gà King Triple", "price": "170k"},
+      {"dish": "Tokbokki", "price": "120k"},
+      {"dish": "Rose tokbokki", "price": "130k"},
+      {"dish": "Mỳ ý rose", "price": "140k"},
+      {"dish": "Mì ý cay", "price": "130k"},
+      {"dish": "Mì tương đen", "price": "140k"},
+      {"dish": "Mì trộn dầu tía tô", "price": "130k"},
+      {"dish": "Mì lạnh sợi nhỏ", "price": "140k"},
+      {"dish": "Mỳ udon chả cá", "price": "125k"},
+      {"dish": "Canh bí ngòi cay", "price": "130k"},
+      {"dish": "Thịt chiên xù", "price": "130k"}
+  ],
+  "reviews": [
+      {
+      "name": "the zionx.x_x",
+      "rating": 4,
+      "content": "Đồ ăn như gà, khoai tây, cheese ball đều khá ổn. Gà giòn, cheese ball béo ngậy, dai dai, canh kim chi ngon. Đi nhóm đông gọi combo rất no, còn dư mang về. Sốt chấm ở mức ổn, có một loại sốt béo khá giống sốt kebab. Mì và thịt nguội không ấn tượng. Nhân viên chăm sóc khách tốt, không gian rộng rãi, tầng trên ngồi khá chill."
+      },
+      {
+      "name": "Yến Linh Nguyễn",
+      "rating": 4.5,
+      "content": "Quán to đẹp, giá hợp lí. Đi 2 người gọi 2 món là no, khoảng 130-150k/người. Gà lắc phô mai ngon, nóng, miếng to, thịt juicy, da giòn nhưng hơi mùi dầu. Nhân viên nhanh nhẹn, tổng thể trải nghiệm 8,5/10."
+      }
+  ]
+},
+{
+"name": "Nhà Hàng OnJeong (온정)",
+"address": "32 Phố Chùa Láng, Đống Đa",
+"distance": "350m",
+"price": "150k-200k/người",
+"type": ["Đồ Hàn"],
+"time": ["Trưa", "Tối"],
+"hours": "9:00 - 22:00",
+"menu": [
+      {"dish": "Tokbokki rose", "price": "89k (Size L: 178k)"},
+      {"dish": "Tokbokki Basil cream", "price": "89k (Size L: 178k)"},
+      {"dish": "Gà chiên", "price": "179k (nửa con) - 358k (nguyên con)"},
+      {"dish": "Gà chiên xốt", "price": "210k (nửa con) - 420k (nguyên con)"},
+      {"dish": "Set gà viên chiên xốt + khoai lang chips + khoai tây chiên", "price": "120k"},
+      {"dish": "Canh kimchi", "price": "80k"},
+      {"dish": "Canh chả cá", "price": "60k"},
+      {"dish": "Canh gà tần sâm", "price": "150k"},
+      {"dish": "Bò xào bulgogi", "price": "350k"},
+      {"dish": "Mì OnJeong", "price": "55k"},
+      {"dish": "Mì lạnh nước", "price": "95k"},
+      {"dish": "Mỳ lạnh trộn", "price": "99k"},
+      {"dish": "Mỳ tương đen", "price": "120k"},
+      {"dish": "Miến trộn cung đình", "price": "90k"},
+      {"dish": "Lẩu quân đội", "price": "169k"},
+      {"dish": "Lẩu tokbokki (2 người)", "price": "130k"},
+      {"dish": "Lẩu Shabu Shabu", "price": "350k (M) - 490k (L)"},
+      {"dish": "Cơm mực xào", "price": "79k"},
+      {"dish": "Cơm rang kimchi", "price": "75k"},
+      {"dish": "Cơm gà Mayo", "price": "75k"},
+      {"dish": "Cơm/Mì gà xào cay", "price": "129k"},
+      {"dish": "Set thịt chiên xù", "price": "120k"},
+      {"dish": "Set thịt chiên xù phô mai", "price": "150k"}
+  ],
+  "reviews": [
+      {
+      "name": "Nguyên Đỗ",
+      "rating": 4,
+      "content": "Quán to, xinh, tông trắng sạch sẽ, bàn ghế rộng ngồi thoải mái. Menu đa dạng, có suất nhỏ và to. Đồ ăn ở mức ổn, gà và tok hơi ngọt, set chiên ít hơn hình. Nhân viên phục vụ ổn, quán sạch sẽ, phù hợp đi nhóm bạn."
+      },
+      {
+      "name": "Tung Dao",
+      "rating": 4.5,
+      "content": "Chất lượng đồ ăn ổn, gà rán và tok khá ấn tượng. Giá hợp lý tầm 150-200k/người, nhân viên phục vụ tốt, không gian sạch sẽ mát mẻ. Nhìn chung khá ưng và sẽ quay lại."
+      }
+  ]
+},
+{
+"name": "K-Pub Chicken",
+"address": "4 Ngõ 121 Chùa Láng",
+"distance": "350m",
+"price": "42k-149k",
+"type": ["Đồ Hàn"],
+"time": ["Trưa", "Tối"],
+"hours": "9:00 - 22:00",
+"menu": [
+      {"dish": "Gà sốt kem hành", "price": "149k (Không xương) - 139k (Cả xương)"},
+      {"dish": "Gà sốt chua ngọt", "price": "149k (Không xương) - 139k (Cả xương)"},
+      {"dish": "Gà sốt phô mai", "price": "149k (Không xương) - 139k (Cả xương)"},
+      {"dish": "Gà nguyên vị", "price": "139k (Không xương) - 129k (Cả xương)"},
+      {"dish": "Gà xào cay (Phần nhỏ)", "price": "59k"},
+      {"dish": "Gà xào cay phô mai (Phần nhỏ)", "price": "69k"},
+      {"dish": "K-Pub - Kimbap", "price": "42k"},
+      {"dish": "Kimbap bò", "price": "49k"},
+      {"dish": "Tokbokki", "price": "49k"},
+      {"dish": "Canh chả cá", "price": "49k"},
+      {"dish": "Mỳ cay", "price": "42k"},
+      {"dish": "Mỳ tương đen", "price": "45k"},
+      {"dish": "Mỳ spaghetti sốt kem nấm", "price": "75k"}
+],
+"reviews": [
+      {
+      "name": "Ho Song",
+      "rating": 2,
+      "content": "Gà cốc 49k phần rất ít, miếng gà nhỏ, sốt không đặc biệt, gà hơi chua. Nhân viên nhiệt tình nhưng đồ ăn không tương xứng với giá."
+      },
+      {
+      "name": "Hoàng Nguyễn Việt",
+      "rating": 1.5,
+      "content": "Trải nghiệm khá tệ: vỏ gà nhão, tokbokki loãng, phục vụ nước chậm. Giá trên web và lúc thanh toán không khớp, cảm giác không xứng đáng với số tiền bỏ ra."
+      }
+   ]
+},
+{
+"name": "Maru Korean Food & Dessert",
+"address": "980 Đường Láng",
+"distance": "750m",
+"price": "100k-200k/người",
+"type": ["Đồ Hàn"],
+"time": ["Trưa", "Tối"],
+"hours": "9:00 - 22:00",
+"menu": [
+      {"dish": "Set nướng đặc biệt 2", "price": "259k"},
+      {"dish": "Combo Maru nướng", "price": "295k"},
+      {"dish": "Set thịt nướng Maru meat lover", "price": "289k"},
+      {"dish": "Combo gà mix", "price": "340k"},
+      {"dish": "Combo spring", "price": "439k"},
+      {"dish": "Lẩu Tokbokki redflag 2 vị", "price": "369k"},
+      {"dish": "Lẩu xào bắp cải phô mai", "price": "215k"},
+      {"dish": "Cơm trộn bò bulgogi", "price": "69k"},
+      {"dish": "Canh chả cá Hàn Quốc", "price": "69k"},
+      {
+      "dish": "Maru couple 1 (Gimbab thịt + Miến trộn + Gà viên phô mai + Salad rong biển + Mandu)",
+      "price": "189k"
+      }
+  ],
+"reviews": [
+      {
+      "name": "Marilyn Đào",
+      "rating": 4,
+      "content": "Không gian rộng rãi, panchan và salad ngon. Recommend gà sốt và các loại thịt nướng. Đồ chiên và tok ở mức ổn, canh rong biển khá ổ"
+      }
+  ]
+},
+{
+"name": "San Tokbokki Chùa Láng",
+"address": "46 Ngõ 59 Chùa Láng, Đống Đa",
+"distance": "350m",
+"price": "11k-41k",
+"type": ["Đồ Hàn"],
+"time": ["Sáng", "Trưa"],
+"hours": "10:00 - 22:15",
+"menu": [
+      {"dish": "Original Tokbokki", "price": "11k"},
+      {"dish": "Cheese tokbokki", "price": "16k"},
+      {"dish": "Gà cay", "price": "21k"},
+      {"dish": "Chả cá", "price": "11k"},
+      {"dish": "Cơm thịt chiên xù", "price": "36k"},
+      {"dish": "Cơm thịt chiên phô mai", "price": "46k"},
+      {"dish": "Cơm trộn Hàn Quốc", "price": "36k"},
+      {"dish": "Cơm bít tết trứng", "price": "41k"},
+      {"dish": "Cơm gà sốt cay", "price": "36k"},
+      {"dish": "Mỳ đen", "price": "36k"},
+      {"dish": "Mỳ cay", "price": "36k"},
+      {"dish": "Mỳ udon", "price": "36k"},
+      {"dish": "Thịt ba chỉ chiên", "price": "21k"},
+      {"dish": "Kimbap đồng giá", "price": "16k"}
+  ],
+"reviews": [
+      {
+      "name": "Hân Ngọc",
+      "rating": 3.5,
+      "content": "Đồ ăn ổn so với tầm giá, giá rẻ nên không đòi hỏi nhiều, muốn ăn ngon hơn thì sẽ chọn quán khác."
+      },
+      {
+      "name": "Ngọc Anh Dương",
+      "rating": 4,
+      "content": "Quán đúng chuẩn dành cho sinh viên với mức giá rất hợp lí. Cơm thịt chiên xù 36k, thịt giòn mềm. Tokbokki và kimbap rất rẻ, món ra nhanh, gọi món bằng quét mã. Đồ ăn không quá xuất sắc nhưng ổn trong tầm giá."
+      }
+  ]
+},
+{
+"name": "Huy Go cook",
+"address": "130 Phố Chùa Láng",
+"distance": "600m",
+"price": "100k-200k/người",
+"type": ["Đồ Hàn"],
+"time": ["Trưa", "Tối"],
+"hours": "10:00 - 14:00, 17:00 - 22:00",
+"menu": [
+      {"dish": "Mỳ tương đen", "price": "75k"},
+      {"dish": "Mỳ trộn chả cá phô mai sốt rose", "price": "90k"},
+      {"dish": "Miến trộn Hàn Quốc", "price": "75k"},
+      {"dish": "Canh Kimchi hầm", "price": "50k"},
+      {"dish": "Mỳ kim chi phô mai bacon", "price": "75k"},
+      {"dish": "Mỳ trộn trứng lòng đào", "price": "60k"},
+      {"dish": "Tokbokki chả cá", "price": "65k"},
+      {"dish": "Rose Tokbokki", "price": "90k"},
+      {"dish": "Kimbap xúc xích phô mai", "price": "50k"},
+      {"dish": "Kimbap lườn ngỗng hun khói", "price": "65k"},
+      {"dish": "Cơm nắm rong biển phô mai", "price": "55k"},
+      {"dish": "Cơm thịt heo sốt cay trứng lòng đào", "price": "69k"},
+      {"dish": "Cơm trộn sốt cay/chua ngọt", "price": "69k"},
+      {"dish": "Gà rán truyền thống", "price": "60k"},
+      {"dish": "Gà rán lắc phô mai", "price": "65k"},
+      {"dish": "Gà rán sốt mù tạt mật ong", "price": "69k"},
+      {"dish": "Lẩu tokbokki quân đội", "price": "269k"}
+  ],
+"reviews": [
+      {
+      "name": "Thanh Hoài",
+      "rating": 4.5,
+      "content": "Đồ ăn ngon, gà nêm nếm vừa miệng, món ăn kèm ổn không bị ngán. Không gian hơi xanh, ánh sáng chưa hợp chụp hình. Giờ cao điểm chỗ để xe hơi ít, nhìn chung là quán ăn ngon, phù hợp đi ăn nhẹ hoặc tụ tập bạn bè."
+      },
+      {
+      "name": "Amo",
+      "rating": 5,
+      "content": "Lần đầu ăn ở quán, gọi set 255k hợp cho 1-2 người. Mì kimchi phô mai bacon rất ngon, gà giòn sốt chua ngọt đậm vị. Quán sạch sẽ, nhân viên nhiệt tình dắt xe. Sẽ quay lại và giới thiệu bạn bè."
+      }
+  ]
+},
+{
+"name": "Mukbang - Đồ ăn Hàn Quốc",
+"address": "141 Phố Chùa Láng",
+"distance": "350m",
+"price": "100k-200k/người",
+"type": ["Đồ Hàn"],
+"time": ["Trưa", "Tối"],
+"hours": "Mở cả ngày",
+"menu": [
+      {"dish": "Salad lườn ngỗng sốt mè rang", "price": "75k"},
+      {"dish": "Cơm trộn truyền thống trứng ốp", "price": "69k"},
+      {"dish": "Cơm gà sốt nướng phô mai", "price": "89k"},
+      {"dish": "Kimbap gà cajun sốt teriyaki", "price": "85k"},
+      {"dish": "Kimbap chiên ruốc cay", "price": "65k"},
+      {"dish": "Cơm chiên kimchi trứng lốc xoáy", "price": "85k"},
+      {"dish": "Cơm thịt chiên xù sốt cari", "price": "69k"},
+      {"dish": "Tokbokki phô mai sốt rose", "price": "89k"},
+      {"dish": "Mỳ tương đen", "price": "75k"},
+      {"dish": "Mỳ lạnh bò bulgogi", "price": "109k"},
+      {"dish": "Miến trộn truyền thống", "price": "75k"},
+      {"dish": "Udon xào bò bulgogi", "price": "85k"},
+      {"dish": "Gà viên sốt ngọt/cay", "price": "59k"},
+      {"dish": "Gà viên sốt kem hành", "price": "75k"}
+  ],
+"reviews": [
+      {
+      "name": "Hiền Bùi",
+      "rating": 3.5,
+      "content": "Gà xào cay ngon, panchan cho nhiều nhưng quầy line buffet nguội, đợi khoảng 10 phút."
+      },
+      {
+      "name": "Linh Nguyễn",
+      "rating": 3.5,
+      "content": "Đồ ăn mức trung bình phù hợp giá sinh viên, nên gọi set cho tiết kiệm. Món nhiều nhưng nêm nếm chưa tới, panchan nhiều nhưng không ngon. Không gian có dấu hiệu xuống cấp, bù lại nhân viên phục vụ nhanh và nhiệt tình."
+      }
+  ]
+},
+{
+"name": "Hola Tacos",
+"address": "143 Phố Chùa Láng",
+"distance": "350m",
+"price": "18k-35k",
+"type": ["Tacos", "Hamburger"],
+"time": ["Sáng", "Trưa"],
+"hours": "Mở cả ngày",
+"menu": [
+      {"dish": "Bò bằm", "price": "19k (S)"},
+      {"dish": "Gà nướng BBQ", "price": "18k (S)"},
+      {"dish": "Trứng xúc xích truyền thống", "price": "25k"},
+      {"dish": "Gà giòn bơ cay Mexico", "price": "30k"},
+      {"dish": "Bò bằm đậm vị sốt", "price": "30k"},
+      {"dish": "Gà BBQ bơ phô mai", "price": "30k"},
+      {"dish": "Bò nướng BBQ Hàn Quốc", "price": "35k"},
+      {"dish": "Tôm chiên giòn phủ sốt", "price": "35k"},
+      {"dish": "Đặc biệt mix vị gà giòn xúc xích", "price": "35k"},
+      {"dish": "Hamburger bò bằm đậm vị sốt", "price": "25k"},
+      {"dish": "Hamburger gà giòn Hàn Quốc", "price": "30k"},
+      {"dish": "Hamburger tôm chiên giòn phủ sốt", "price": "35k"}
+  ],
+"reviews": [
+      {
+      "name": "Ngan nguyen",
+      "rating": 5,
+      "content": "Xốt không quá đa dạng nhưng nhân bò, gà rất ngon và chất lượng, thịt tươi, hợp khẩu vị người Việt. Trẻ con cũng thích ăn, kể cả rau. Món ăn cải tiến tốt, nguyên liệu nhìn rất tươi."
+      },
+      {
+      "name": "Phình má phun lửa",
+      "rating": 3,
+      "content": "Bánh bò bằm đậm vị ăn khá ổn, thịt ngon, sốt hài hoà, không ngấy. Tuy nhiên nhược điểm lớn là nhân bò nhiều dầu, bánh bị thấm dầu làm mềm vỏ và khá bẩn khi ăn. Nếu khắc phục được điểm này thì hương vị và giá đều ổn."
+      }
+  ]
+},
+{
+"name": "Tacos Măm",
+"address": "27 Chùa Láng - 116 Chùa Láng",
+"distance": "350m",
+"price": "35k-45k",
+"type": ["Tacos"],
+"time": ["Sáng", "Trưa"],
+"hours": "7:30 - 21:45",
+"menu": [
+      {"dish": "Tacos Bò", "price": "45k"},
+      {"dish": "Tacos Gà", "price": "39k"},
+      {"dish": "Tacos xúc xích hun khói", "price": "35k"}
+  ],
+"reviews": [
+      {
+      "name": "Thu Trang Nguyễn",
+      "rating": 4.5,
+      "content": "Ăn thử bánh nhân bò xay, nhân khá đầy đặn so với mức giá. Sốt ngon, sẽ quay lại."
+      }
+  ]
+},
+{
+"name": "Bún cá cô Tuyết",
+"address": "Số 24 Ngõ 84 Chùa Láng",
+"distance": "210m",
+"price": "30-40k",
+"type": ["Bún/Phở/Miến/Bánh canh/Súp"],
+"time": ["Sáng", "Trưa", "Tối"],
+"hours": "5:30 - 21:30",
+"menu": [
+      { "dish": "Bún cá 1 topping", "price": "30k" },
+      { "dish": "Bún cá 2 topping", "price": "35k" },
+      { "dish": "Bún cá 3 topping", "price": "40k" },
+      { "dish": "Bún cá đặc biệt", "price": "45k" }
+  ],
+"reviews": [
+      {
+      "name": "Võ Hoàng",
+      "rating": 5,
+      "content": "Quán ngon 10 điểm, giá sinh viên, sạch hơn ngoài chợ 84"
+      }
+  ]
+},
+{
+"name": "Súp cua GA",
+"address": "Số 6A Ngõ 91 Chùa Láng",
+"distance": "140m",
+"price": "30-40k",
+"type": ["Bún/Phở/Miến/Bánh canh/Súp"],
+"time": ["Sáng", "Trưa", "Tối"],
+"hours": "8:00 - 22:00",
+"menu": [
+      { "dish": "Súp gà", "price": "30k" },
+      { "dish": "Súp cua", "price": "35k" },
+      { "dish": "Súp tôm", "price": "50k" },
+      { "dish": "Súp sò điệp", "price": "50k" },
+      { "dish": "Súp hải sản đặc biệt", "price": "60k" },
+      { "dish": "Ngô xào trứng muối", "price": "33k" },
+      { "dish": "Bánh canh chả cá", "price": "35k" },
+      { "dish": "Bánh canh chả tôm", "price": "40k" },
+      { "dish": "Bánh canh sườn tôm", "price": "50k" },
+      { "dish": "Bánh canh thập cẩm", "price": "60k" },
+      { "dish": "Bánh canh đặc biệt", "price": "75k" }
+  ],
+"reviews": [
+      {
+      "name": "the zionx.x_x",
+      "rating": 3,
+      "content": "Súp cua ngon, nhưng cách làm việc của quán khiến khách thấy khó chịu"
+      },
+      {
+      "name": "Tran Tran",
+      "rating": 5,
+      "content": "Súp cua ngon bát đầy, quán rộng rãi có 2 tầng, trà đá đầy đủ, có điều hòa thoáng mát, giá rẻ hợp khẩu vị, nhân viên phục vụ nhanh chóng"
+      },
+      {
+      "name": "Tiểu Ly",
+      "rating": 5,
+      "content": "Mình gọi 1 súp cua thêm trứng bắc thảo và óc heo, ăn khá ngon"
+      }
+  ]
+},
+{
+"name": "Bún đậu Chùa Láng",
+"address": "Số 33 Ngõ 185 Chùa Láng",
+"distance": "650m",
+"price": "30-40k",
+"type": ["Bún/Phở/Miến/Bánh canh/Súp"],
+"time": ["Sáng", "Trưa", "Tối"],
+"hours": "9:00 - 20:30",
+"menu": [
+      { "dish": "Bún đậu", "price": "25k" },
+      { "dish": "Đầy đủ nhỏ", "price": "35k" },
+      { "dish": "Đầy đủ to", "price": "40k" },
+      { "dish": "Đặc biệt", "price": "50k" }
+  ],
+"reviews": [
+      {
+      "name": "TRÂM ANH NGUYỄN NGỌC",
+      "rating": 5,
+      "content": "Bún đậu ngon, đầy đặn"
+      },
+      {
+      "name": "Hoa Le",
+      "rating": 3,
+      "content": "Topping ăn ổn áp, đầy đủ và chất lượng ổn, tuy nhiên mắm tôm và nước mắm chưa thực sự ngon nên chưa làm bật vị món ăn"
+      },
+      {
+      "name": "Khánh Ngọc",
+      "rating": 5,
+      "content": "Bún đậu ngon nha, có dưa chuột ăn kèm nữa, vị vừa vặn, đậu giòn tan"
+      }
+  ]
+},
+{
+"name": "Quán Đức Quân",
+"address": "Số 2 Ngõ 84 Chùa Láng",
+"distance": "140m",
+"price": "30-40k",
+"type": ["Bún/Phở/Miến/Bánh canh/Súp"],
+"time": ["Sáng", "Trưa", "Tối"],
+"hours": "5:00 - 0:00",
+"menu": [
+      { "dish": "Bún chả nướng (chấm-chan)", "price": "35k" },
+      { "dish": "Bún, miến, bánh đa trộn", "price": "35k" },
+      {
+      "dish": "Bún, miến, bánh đa riêu cua, cá, bò, mọc, chả lá lốt, thập cẩm",
+      "price": "35k"
+      }
+  ],
+ "reviews": []
+},
+{
+"name": "Bún đỏ Chùa Láng",
+"address": "Số 6 Ngõ 185 Chùa Láng",
+"distance": "500m",
+"price": "30-40k",
+"type": ["Bún/Phở/Miến/Bánh canh/Súp"],
+"time": ["Sáng", "Trưa", "Tối"],
+"hours": "10:00 - 22:00",
+"menu": [
+      { "dish": "Bún đỏ bát lớn", "price": "35k" },
+      { "dish": "Bún đỏ bát đặc biệt", "price": "45k" }
+  ],
+"reviews": [
+      {
+      "name": "Viet Huong Nguyen",
+      "rating": 4,
+      "content": "Một món bún khá độc đáo ít bán ở Hà Nội, cá nhân mình thấy ăn ổn nhưng nước dùng không có gì quá đặc biệt, được cái topping rất nhiều loại và đầy đặn, gồm giò, riêu miếng, tóp mỡ, trứng, rau,..."
+      },
+      {
+      "name": "Hieu-Tran Trung",
+      "rating": 4,
+      "content": "Gạch tôm độn thịt khá hay, giò tai hơi mỏng, xá xíu gần giống trong vằn thắn nhưng không ngon bằng, bún đỏ sợi to như bún bò Huế chứ vị thì không thấy khác gì, tổng thể ok, không ăn được tôm thì k nên thử"
+      },
+      {
+      "name": "Bình Trần",
+      "rating": 5,
+      "content": "Trưa nay qua ăn cùng mẹ, quán làm ngon, ăn bát 35 mà mình thấy no căng, nước dùng ngọt xương, đồ ăn đủ đồ có cả quẩy ăn kèm"
+      }
+  ]
+}, 
+{
+"name": "Bún bò Huế Hương Giang",
+"address": "Số 42 Ngõ 185 Chùa Láng",
+"distance": "650m",
+"price": "30-40k",
+"type": ["Bún/Phở/Miến/Bánh canh/Súp"],
+"time": ["Sáng", "Trưa", "Tối"],
+"hours": "8:00 - 22:00",
+"menu": [
+      { "dish": "Bún bò Huế không móng", "price": "30k" },
+      { "dish": "Bún bò đầy đủ", "price": "35k" },
+      { "dish": "Bún bò đặc biệt", "price": "40-50k" }
+  ],
+"reviews": [
+      {
+      "name": "Vũ Thị Quỳnh Trang",
+      "rating": 4,
+      "content": "Quán bún bò quen ở Láng, giá thành bình dân, ăn ổn, lượng khách đông nên vệ sinh dọn dẹp chưa kĩ, rau cũng không được tươi"
+      },
+      {
+      "name": "204 nieu",
+      "rating": 5,
+      "content": "Đồ ăn ngon, mình ăn suất 35k mà nhiều lắm, no quá, ăn xong bún mà vẫn còn topping"
+      },
+      {
+      "name": "Khanh Do",
+      "rating": 5,
+      "content": "Quán nhỏ hẹp, tầm 8 chỗ, đồ ăn làm cẩn thận và có tâm, không làm công nghiệp, ngon so với nhiều quán khác"
+      }
+  ]
+},
+{
+"name": "Hi - Tôm bún hải sản",
+"address": "Số 211 Chùa Láng",
+"distance": "500m",
+"price": "30-40k",
+"type": ["Bún/Phở/Miến/Bánh canh/Súp"],
+"time": ["Sáng", "Trưa", "Tối"],
+"hours": "9:00 - 22:00",
+"menu": [
+      { "dish": "Bún chả cá", "price": "30k" },
+      { "dish": "Bún hải sản đầy đủ", "price": "45k" },
+      { "dish": "Bún hải sản đặc biệt", "price": "65k" }
+  ],
+"reviews": [
+      {
+      "name": "Vũ Diễm Quỳnh",
+      "rating": 5,
+      "content": "Bún siêu ngon, nước dùng thanh, topping tươi, có nước chấm ớt xanh"
+      },
+      {
+      "name": "Khánh Linh Mai",
+      "rating": 5,
+      "content": "Bún ngon, chua cay đậm vị, được free trà hồng sâm lấy bao nhiêu cũng được, giá cả phải chăng"
+      },
+      {
+      "name": "Trang Pham",
+      "rating": 5,
+      "content": "Siêu ngon, nước dùng chua cay, hải sản tươi, được free trà hồng sâm"
+      }
+  ]
+},
+{
+"name": "Bún cá rô đồng",
+"address": "Số 127 Chùa Láng",
+"distance": "150m",
+"price": "30-40k",
+"type": ["Bún/Phở/Miến/Bánh canh/Súp"],
+"time": ["Sáng", "Trưa", "Tối"],
+"hours": "7:00 - 14:00 / 18:00 - 20:00",
+"menu": [
+      { "dish": "Bún hải sản", "price": "30k" }
+  ],
+"reviews": []
+},
+{
+"name": "Bánh canh ghẹ",
+"address": "Số 6A Ngách 2 Ngõ 121 Chùa Láng",
+"distance": "180m",
+"price": "30-40k",
+"type": ["Bún/Phở/Miến/Bánh canh/Súp"],
+"time": ["Sáng", "Trưa", "Tối"],
+"hours": "9:00 - 20:00",
+"menu": [
+      { "dish": "Bánh canh ghẹ", "price": "40k" },
+      { "dish": "Bún bò Huế", "price": "30k" },
+      { "dish": "Bánh các loại (suất nhỏ)", "price": "30k" }
+  ],
+"reviews": []
+},
+{
+"name": "Bánh canh ghẹ",
+"address": "Số 4 Ngõ 91 Chùa Láng",
+"distance": "140m",
+"price": "40-50k",
+"type": ["Bún/Phở/Miến/Bánh canh/Súp"],
+"time": ["Sáng", "Trưa", "Tối"],
+"hours": "8:30 - 19:30",
+"menu": [
+      { "dish": "Bánh canh ghẹ", "price": "35k" },
+      { "dish": "Bún Thái hải sản", "price": "40k" },
+      { "dish": "Cơm gà cà ri", "price": "45k" },
+      { "dish": "Bánh mì cà ri", "price": "45k" }
+  ],
+"reviews": [
+      {
+      "name": "My Nguyễn",
+      "rating": 3,
+      "content": "Bánh canh ngon, quán sạch sẽ, bác gái tóc xoăn phục vụ rất khó chịu"
+      },
+      {
+      "name": "Quỳnh Chi",
+      "rating": 5,
+      "content": "Vị thì hơi khác so với lần mình ăn trong Nam, chắc là đậm đà hơn á, một phần ăn là no nha"
+      },
+      {
+      "name": "Nguyễn Phi",
+      "rating": 5,
+      "content": "Ăn vừa miệng, bánh canh cũng khá khác, sợi to hơn và dài hơn"
+      }
+  ]
+},
+{
+"name": "Bún bò Huế O - Nga",
+"address": "Số 181 Chùa Láng",
+"distance": "500m",
+"price": "40-50k",
+"type": ["Bún/Phở/Miến/Bánh canh/Súp"],
+"time": ["Sáng", "Trưa", "Tối"],
+"hours": "6:30 - 22:00",
+"menu": [
+      { "dish": "Bún bò Huế tô trẻ em", "price": "30k" },
+      { "dish": "Bún bò Huế tô trắng", "price": "40k" },
+      { "dish": "Bún bò Huế tô xanh", "price": "50k" },
+      { "dish": "Bún bò Huế tô đen", "price": "60k" }
+   ],
+"reviews": [
+      {
+      "name": "Dương Quang Trung",
+      "rating": 4,
+      "content": "Quán hơi tối, có cách phân chia menu theo màu bát khá đặc biệt"
+      },
+      {
+      "name": "Hoài",
+      "rating": 5,
+      "content": "Ngon, no căng bụng"
+      }
+  ]
+},
+{
+"name": "Bánh canh ghẹ",
+"address": "Số 2 Ngõ 121 Chùa Láng",
+"distance": "180m",
+"price": "40-50k",
+"type": ["Bún/Phở/Miến/Bánh canh/Súp"],
+"time": ["Sáng", "Trưa", "Tối"],
+"hours": "",
+"menu": [
+      { "dish": "Bánh canh ghẹ bột lọc", "price": "50k" },
+      { "dish": "Bún bò Huế", "price": "" },
+      { "dish": "Bánh bột lọc", "price": "" }
+  ],
+"reviews": [
+      {
+      "name": "Hai Thanh Tran",
+      "rating": 5,
+      "content": "Sợi bánh bột lọc rất ngon"
+      }
+  ]
+},
+{
+"name": "Bún bò Huế O Chang - Bún bò Nam Bộ",
+"address": "Số 79 Chùa Láng",
+"distance": "20m",
+"price": ">50k",
+"type": ["Bún/Phở/Miến/Bánh canh/Súp"],
+"time": ["Sáng", "Trưa", "Tối"],
+"hours": "7:00 - 22:00",
+"menu": [
+      { "dish": "Bún bò Huế", "price": "45k" },
+      { "dish": "Bún bò Huế đặc biệt", "price": "55k" },
+      { "dish": "Bún bò Huế chả cua", "price": "65k" },
+      { "dish": "Bún đuôi bò / gân bò", "price": "60k" },
+      { "dish": "Bún bò trộn Nam Bộ", "price": "50-60k" },
+      { "dish": "Lẩu đuôi bò", "price": "350k - 450k - 550k" },
+      { "dish": "Cơm rang thập cẩm / Cơm rang dưa bò", "price": "45-55k" }
+  ],
+"reviews": [
+      {
+      "name": "Anh Hà Huyền",
+      "rating": 5,
+      "content": "Quán sạch sẽ, nước dùng đậm vị, ai thích ăn nhanh có thể cân nhắc"
+      },
+      {
+      "name": "Tuấn Hùng Hoàng",
+      "rating": 5,
+      "content": "Bún bò Huế và bún trộn đều ở mức khá trở lên, thịt bò dai mềm ngọt, tiết không hôi, đồ ăn kèm sạch sẽ và đầy đủ"
+      }
+  ]
+},
+{
+"name": "Bún riêu cua tóp mỡ Huỳnh Anh",
+"address": "Số 114 Chùa Láng",
+"distance": "450m",
+"price": "40-50k",
+"type": ["Bún/Phở/Miến/Bánh canh/Súp"],
+"time": ["Sáng", "Trưa", "Tối"],
+"hours": "",
+"menu": [
+      { "dish": "Bún riêu cua đậu", "price": "30k" },
+      { "dish": "Bún riêu cua bò/giò", "price": "40k" },
+      { "dish": "Bún riêu cua bò tóp mỡ", "price": "45k" },
+      { "dish": "Bún riêu cua bò giò tóp mỡ", "price": "50k" },
+      { "dish": "Bún riêu cua tóp mỡ đầy đủ", "price": "55k" },
+      { "dish": "Bún riêu cua tóp mỡ đặc biệt", "price": "65k" }
+  ],
+"reviews": [
+      {
+      "name": "Vũ Đình Hoan",
+      "rating": 5,
+      "content": ""
+      },
+      {
+      "name": "Quyên Phạm",
+      "rating": 1,
+      "content": ""
+      }
+  ]
+},
+{
+"name": "Mì trộn Nam Béo",
+"address": "Số 20 Ngõ 91 Chùa Láng",
+"distance": "210m",
+"price": "30-40k",
+"type": ["Bún/Phở/Miến/Bánh canh/Súp"],
+"time": ["Sáng", "Trưa", "Tối"],
+"hours": "10:30 - 14:00 / 17:00 - 22:00",
+"menu": [
+      { "dish": "Mì trộn thường", "price": "35k" },
+      { "dish": "Mì trộn đặc biệt", "price": "45k" },
+      { "dish": "Mì trộn thập cẩm", "price": "55k" }
+  ],
+"reviews": []
+},
+{
+"name": "Hủ tiếu",
+"address": "Ngõ 91 Chùa Láng",
+"distance": "70m",
+"price": "40-50k",
+"type": ["Bún/Phở/Miến/Bánh canh/Súp"],
+"time": ["Sáng", "Trưa", "Tối"],
+"hours": "",
+"menu": [],
+"reviews": []
+},
+{
+"name": "Quán cô Hương Béo",
+"address": "Số 61 Chùa Láng",
+"distance": "150m",
+"price": "40-50k",
+"type": ["Bún/Phở/Miến/Bánh canh/Súp"],
+"time": ["Sáng", "Trưa", "Tối"],
+"hours": "Mở cửa suốt ngày đêm",
+"menu": [
+      { "dish": "Tô ngon miệng", "price": "40k" },
+      { "dish": "Tô đầy đủ", "price": "55k" },
+      { "dish": "Lẩu riêu tóp mỡ mọc giòn tươi (nhỏ)", "price": "300k" }
+  ],
+"reviews": [
+      {
+      "name": "Simon HWoon",
+      "rating": 3,
+      "content": "Đồ ăn bình thường, khẩu phần khá ít so với giá"
+      },
+      {
+      "name": "Minh Minh",
+      "rating": 1,
+      "content": "Giá thì không rẻ nhưng đồ ăn không chất lượng"
+      }
+  ]
+},
+{
+"name": "Bún cá cay Hải Phòng",
+"address": "Số 128 Đường Nguyễn Chí Thanh",
+"distance": "1.3km",
+"price": "40-50k",
+"type": ["Bún/Phở/Miến/Bánh canh/Súp"],
+"time": ["Sáng", "Trưa", "Tối"],
+"hours": "6:00 - 22:00",
+"menu": [
+      { "dish": "Bát 35", "price": "35k" },
+      { "dish": "Bát 45", "price": "45k" },
+      { "dish": "Bát đặc biệt", "price": "60k" }
+  ],
+"reviews": [
+      {
+      "name": "DLA",
+      "rating": 3,
+      "content": "Phục vụ nhanh còn đồ ăn bình thường, hơi ít cá, vị nước dùng cũng chưa ngon lắm"
+      },
+      {
+      "name": "Dung Lê",
+      "rating": 5,
+      "content": "Phục vụ nhanh, đồ ăn đa dạng, nhiều topping, nêm nếm rất vừa, hợp khẩu vị mình"
+      }
+  ]
+},
+{
+"name": "Mỳ chua cay 6 phụ nữ",
+"address": "Số 10 Ngách 4 Ngõ 91 Chùa Láng",
+"distance": "",
+"price": "40-50k",
+"type": ["Bún/Phở/Miến/Bánh canh/Súp"],
+"time": ["Sáng", "Trưa", "Tối"],
+"hours": "8:00 - 21:00",
+"menu": [
+      { "dish": "Bún/mì chua cay bò", "price": "35k" },
+      { "dish": "Bún/mì chua cay tim cật, bò", "price": "45k" },
+      { "dish": "Bún/mì chua cay hải sản, tim cật", "price": "55k" },
+      { "dish": "Bún/mì chua cay thập cẩm", "price": "65k" },
+      { "dish": "Mỳ trộn tim cật/bò", "price": "40k" },
+      { "dish": "Bún bò trộn Nam Bộ", "price": "40k" },
+      { "dish": "Mì gà tần", "price": "40k" },
+      { "dish": "Cơm rang Dương Châu", "price": "35k" },
+      { "dish": "Trứng rán ngải cứu", "price": "20k" },
+      { "dish": "Chân gà luộc", "price": "15k" }
+  ],
+"reviews": [
+      {
+      "name": "Nguyễn Khánh Linh",
+      "rating": 5,
+      "content": "Tổng thể thì mình thấy tạm ổn, chỗ ngồi khá sạch sẽ, quán rất đông sinh viên FTU. Món ăn ở mức ổn, phù hợp đổi vị bữa trưa"
+      },
+      {
+      "name": "Anh Huyền",
+      "rating": 1,
+      "content": "3 bát mì phải đợi gần 20 phút mới ra, đồ ăn chỉ cho mì trần chan nước, lên món rất chậm"
+      }
+  ]
+},
+{
+"name": "Phở gà phố cổ Bảo Lộc",
+"address": "Số 35 Chùa Láng",
+"distance": "170m",
+"price": "40-50k",
+"type": ["Bún/Phở/Miến/Bánh canh/Súp"],
+"time": ["Sáng", "Trưa", "Tối"],
+"hours": "6:00 - 23:00",
+"menu": [
+      { "dish": "Phở lườn/mọc", "price": "40k" },
+      { "dish": "Phở đùi", "price": "50k" },
+      { "dish": "Phở đặc biệt", "price": "70k" },
+      { "dish": "Mỳ trộn đùi chiên mắm tỏi", "price": "60k" },
+      { "dish": "Bún thang lườn", "price": "55k" },
+      { "dish": "Cơm đùi chiên", "price": "55k" },
+      { "dish": "Cháo lườn xé", "price": "35k" }
+  ],
+"reviews": [
+      {
+      "name": "Tran Pham",
+      "rating": 4,
+      "content": "Quán ngon, giá hợp lý, đồ ăn ổn, quán sạch sẽ, nhân viên phục vụ ổn"
+      },
+      {
+      "name": "diep diep",
+      "rating": 1,
+      "content": "Cơm chỉ ở mức tạm, quán nên training lại nhân viên"
+      }
+  ]
+},
+{
+"name": "Bún riêu Dung MaMa - Chùa Láng",
+"address": "Số 41 Chùa Láng",
+"distance": "170m",
+"price": "<30k",
+"type": ["Bún/Phở/Miến/Bánh canh/Súp"],
+"time": ["Sáng", "Trưa", "Tối"],
+"hours": "6:30 - 21:30",
+"menu": [
+      { "dish": "Bát cơ bản", "price": "25k" }
+  ],
+"reviews": [
+      {
+      "name": "Minh Trần",
+      "rating": 5,
+      "content": "Đồ ăn ngon, không gian sạch sẽ, phục vụ tận tình"
+      },
+      {
+      "name": "Ngọc Anh Lê",
+      "rating": 5,
+      "content": "Bún ngon nha, thơm vị giấm bỗng và có vị tanh của riêu, giống kiểu vị bún riêu xưa mình từng ăn"
+      },
+      {
+      "name": "Hiu Hwang",
+      "rating": 3,
+      "content": "Không có gì đặc sắc, bàn ghế hơi thấp, giá cả trung bình, bún và bánh đa không có gì nổi bật cả"
+      }
+  ]
+}
 ]
 
 # Initialize session state
