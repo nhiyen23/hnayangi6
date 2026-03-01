@@ -564,7 +564,7 @@ restaurants_data = [
             {"name": "Ngọc Tùng", "rating": 5, "content": "Đồ ăn ngon nha mọi người, mình đặt ship về đồ ăn vẫn nóng hổi"},
             {"name": "Nguyễn Đức Tài", "rating": 1, "content": "Khách đến chờ 15 phút đi ra mua đồ ăn bánh mì, nước uống quay lại vẫn chưa xong"}
         ]
-    }
+    },
     {
         "name": "KOMTO",
         "address": "127 Ngõ 121/2 Chùa Láng",
