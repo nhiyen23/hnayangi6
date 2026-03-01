@@ -381,7 +381,7 @@ restaurants_data = [
         "address": "Số 17 Chùa Láng",
         "phone": "0972489933",
         "distance": "220m",
-        "price": ["40-50k", ">50k"],
+        "price": "40-50k",
         "type": ["Cơm"],
         "time": ["Trưa", "Tối"],
         "hours": "9:45 - 21:45",
@@ -531,7 +531,7 @@ restaurants_data = [
   "address": "Số 1 ngõ 59 Chùa Láng (SĐT: 0264285214)",
   "distance": "350m",
   "price": "20k-60k",
-  "type": ["Xôi"],
+  "type": ["Cơm/Xôi/Cháo"],
   "time": ["Sáng", "Trưa", "Tối"],
   "hours": "8:00 - 22:00",
   "menu": [
@@ -565,7 +565,7 @@ restaurants_data = [
  "address": "66 Chùa Láng (SĐT: 0916516738)",
  "distance": "300m",
  "price": "35k-55k",
- "type": ["Cháo"],
+ "type": ["Cơm/Xôi/Cháo"],
  "time": ["Sáng", "Trưa"],
  "hours": "",
  "menu": [
@@ -867,7 +867,7 @@ restaurants_data = [
 "address": "143 Phố Chùa Láng",
 "distance": "350m",
 "price": "18k-35k",
-"type": ["Tacos", "Hamburger"],
+"type": ["Tacos"],
 "time": ["Sáng", "Trưa"],
 "hours": "Mở cả ngày",
 "menu": [
