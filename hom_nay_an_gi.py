@@ -600,7 +600,62 @@ restaurants_data = [
           }
         ]
      },
-
+     {
+          "name": "Kofuku - Tiệm cơm mì",
+          "address": "2 Ngõ 106 Phố Chùa Láng",
+          "distance": "220m",
+          "price": "35k-55k",
+          "type": ["Cơm"],
+          "time": ["Trưa", "Tối"],
+          "hours": "10:00 - 14:00, 15:00 - 21:00",
+          "menu": {
+          "main": [
+              { "dish": "Cơm Katsudon", "price": "55k" },
+              { "dish": "Cơm gà Oyakodon", "price": "45k" },
+              { "dish": "Cơm cari", "price": "35k" },
+              { "dish": "Cơm cari Tonkatsu", "price": "55k" },
+              { "dish": "Cơm gà Karaage", "price": "50k" },
+              { "dish": "Cơm thịt heo Ontama", "price": "55k" },
+              { "dish": "Cơm xá xíu", "price": "55k" },
+              { "dish": "Cơm thịt heo Kimchi", "price": "55k" },
+              { "dish": "Cơm thịt heo", "price": "50k" },
+              { "dish": "Cơm cari tôm chiên", "price": "45k" },
+              { "dish": "Cơm cari trứng ngâm tương", "price": "40k" }
+            ],
+            "topping": [
+              { "dish": "Trứng ngâm tương", "price": "8k/quả" },
+              { "dish": "Trứng Ontama", "price": "8k/quả" },
+              { "dish": "Kim chi", "price": "10k" },
+              { "dish": "Tôm chiên", "price": "10k/3 con" },
+              { "dish": "Tonkatsu", "price": "30k/cái" },
+              { "dish": "Gà Karaage", "price": "30k/5 cái" }
+            ],
+            "drink": [
+              { "dish": "Trà tắc", "price": "10k" },
+              { "dish": "Trà chanh", "price": "10k" },
+              { "dish": "Trà bát bảo", "price": "10k" },
+              { "dish": "Trà Olong", "price": "10k" },
+              { "dish": "Coca", "price": "15k/lon" }
+            ]
+          },
+          "reviews": [
+            {
+              "name": "Linh Nhi",
+              "rating": 4,
+              "content": "Đông khách ở quán rất nhiều, cá nhân mình thấy cơm cà ri đáng thử nhất. Điểm trừ là quán bám mùi quần áo khá nặng, nhưng đồ ăn ngon nên chấp nhận."
+            },
+            {
+              "name": "Nguyet Anh Le",
+              "rating": 4,
+              "content": "Quán nhỏ, buổi trưa rất đông, mình phải đợi khoảng 10 phút mới có chỗ. Cơm cà ri khá ngon, thịt không bị dai, khẩu phần vừa đủ. Nhân viên tận tình và giá rẻ hơn nhiều chỗ khác."
+            },
+            {
+              "name": "Kim Ngân Trần",
+              "rating": 5,
+              "content": "Cơm cà ri tonkatsu ngon lắm, thịt chiên xù giòn, cơm dẻo. Giá sinh viên tầm 50–65k/món. Không gian hơi nhỏ."
+            }
+            ]
+        }, 
 
 ]
 
