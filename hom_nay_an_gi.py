@@ -541,8 +541,7 @@ restaurants_data = [
     "address": "Số 17 Chùa Láng",
     "phone": "0972489933",
     "distance": "220m",
-    "price": ">50k"
-    "price_focus": "35k-50k",
+    "price": "40-50k"
     "type": ["Cơm"],
     "time": ["Trưa", "Tối"],
     "hours": "9:45 - 21:45",
