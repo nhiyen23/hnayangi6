@@ -560,9 +560,9 @@ restaurants_data = [
           {"dish": "Cơm Thố Đặc Biệt (Bò + Gà + Xá Xíu + Trứng)", "price": "70k"}
         ],
         "reviews": [
-            {"name": "Minh Anh", "rating": 5, "content": "Rất ngon!"},
-            {"name": "Hoàng Long", "rating": 4, "content": "Phục vụ tốt."},
-            {"name": "Thu Hà", "rating": 5, "content": "Sẽ quay lại!"}
+            {"name": "Nguyễn Khánh Linh", "rating": 5, "content": "Ăn ổn, giá cả phù hợp, mới nhìn tưởng khẩu phần ít nhưng đến lúc ăn xong no ná thở, phải cố để không bỏ dở"},
+            {"name": "Ngọc Tùng", "rating": 5, "content": "Đồ ăn ngon nha mọi người, mình đặt ship về đồ ăn vẫn nóng hổi"},
+            {"name": "Nguyễn Đức Tài", "rating": 1, "content": "Khách đến chờ 15 phút đi ra mua đồ ăn bánh mì, nước uống quay lại vẫn chưa xong"}
         ]
     }
 
