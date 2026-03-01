@@ -672,7 +672,7 @@ restaurants_data = [
       { "dish": "Mề tần", "price": "25k" },
       { "dish": "Chân gà tần", "price": "20k" },
       { "dish": "Trứng vịt lộn tần", "price": "10k/quả" }
-      ]
+  ],
   "reviews": [
     {
      "name": "Huyền Linh Vũ",
