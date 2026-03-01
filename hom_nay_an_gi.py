@@ -1747,7 +1747,7 @@ restaurants_data = [
     "address": "67 Chùa Láng, Láng Thượng (cạnh Laika Coffee)",
     "distance": "200-300m",
     "price": "<30k",
-    "type": ["Gà/Thịt chiên", "Bánh mì pate/chảo/muối ớt],
+    "type": ["Gà/Thịt chiên", "Bánh mì pate/chảo/muối ớt"],
     "time": ["Chiều", "Tối"],
     "hours": "16:00 - 22:00",
     "menu": [
