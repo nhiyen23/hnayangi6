@@ -775,7 +775,7 @@ restaurants_data = [
 "reviews": [
       {
       "name": "Hân Ngọc",
-      "rating": 3.5,
+      "rating": 3,
       "content": "Đồ ăn ổn so với tầm giá, giá rẻ nên không đòi hỏi nhiều, muốn ăn ngon hơn thì sẽ chọn quán khác."
       },
       {
