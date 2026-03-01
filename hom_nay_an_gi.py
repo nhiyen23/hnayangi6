@@ -619,7 +619,7 @@ restaurants_data = [
               { "dish": "Cơm thịt heo Kimchi", "price": "55k" },
               { "dish": "Cơm thịt heo", "price": "50k" },
               { "dish": "Cơm cari tôm chiên", "price": "45k" },
-              { "dish": "Cơm cari trứng ngâm tương", "price": "40k" }
+              { "dish": "Cơm cari trứng ngâm tương", "price": "40k" },
               { "dish": "Trứng ngâm tương", "price": "8k/quả" },
               { "dish": "Trứng Ontama", "price": "8k/quả" },
               { "dish": "Kim chi", "price": "10k" },
