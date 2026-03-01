@@ -712,7 +712,7 @@ restaurants_data = [
       },
       {
       "name": "Hoàng Nguyễn Việt",
-      "rating": 1.5,
+      "rating": 1,
       "content": "Trải nghiệm khá tệ: vỏ gà nhão, tokbokki loãng, phục vụ nước chậm. Giá trên web và lúc thanh toán không khớp, cảm giác không xứng đáng với số tiền bỏ ra."
       }
    ]
