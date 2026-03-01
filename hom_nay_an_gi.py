@@ -1261,12 +1261,12 @@ restaurants_data = [
       {
       "name": "Vũ Đình Hoan",
       "rating": 5,
-      "content": ""
+      "content": "Đồ ăn ngon, sẽ quay lại lần nữa"
       },
       {
       "name": "Quyên Phạm",
       "rating": 1,
-      "content": ""
+      "content": "Sợi bún chua, quán vệ sinh bẩn"
       }
   ]
 },
