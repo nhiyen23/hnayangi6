@@ -541,7 +541,7 @@ restaurants_data = [
     "address": "Số 17 Chùa Láng",
     "phone": "0972489933",
     "distance": "220m",
-    "price": ["30-40k", "40-50k", ">50k"],
+    "price": ">50k"
     "price_focus": "35k-50k",
     "type": ["Cơm"],
     "time": ["Trưa", "Tối"],
@@ -563,7 +563,14 @@ restaurants_data = [
         "price": "70k"
       }
     ]
+    "reviews": [
+        {"name": "Minh Anh", "rating": 5, "content": "Rất ngon!"},
+        {"name": "Hoàng Long", "rating": 4, "content": "Phục vụ tốt."},
+        {"name": "Thu Hà", "rating": 5, "content": "Sẽ quay lại!"}
+    ]
     }
+
+
 ]
 
 # Initialize session state
