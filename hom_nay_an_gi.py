@@ -657,7 +657,7 @@ restaurants_data = [
   "price": "20k-45k",
   "type": ["Cơm/Xôi/Cháo"],
   "time": ["Sáng", "Trưa"],
-  "hours": "",
+  "hours": "10:00 - 22:00",
   "menu": [
       { "dish": "Xôi xéo hành mỡ đỗ", "price": "20k" },
       { "dish": "Xôi thập cẩm", "price": "45k" },
