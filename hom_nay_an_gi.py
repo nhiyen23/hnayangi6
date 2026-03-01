@@ -1172,24 +1172,6 @@ restaurants_data = [
   ]
 },
 {
-"name": "Quán Đức Quân",
-"address": "Số 2 Ngõ 84 Chùa Láng",
-"distance": "140m",
-"price": "30-40k",
-"type": ["Bún/Phở/Miến/Bánh canh/Súp"],
-"time": ["Sáng", "Trưa", "Tối"],
-"hours": "5:00 - 0:00",
-"menu": [
-      { "dish": "Bún chả nướng (chấm-chan)", "price": "35k" },
-      { "dish": "Bún, miến, bánh đa trộn", "price": "35k" },
-      {
-      "dish": "Bún, miến, bánh đa riêu cua, cá, bò, mọc, chả lá lốt, thập cẩm",
-      "price": "35k"
-      }
-  ],
- "reviews": []
-},
-{
 "name": "Bún đỏ Chùa Láng",
 "address": "Số 6 Ngõ 185 Chùa Láng",
 "distance": "500m",
@@ -1295,7 +1277,7 @@ restaurants_data = [
 "reviews": []
 },
 {
-"name": "Bánh canh ghẹ",
+"name": "Bánh canh ghẹ 1",
 "address": "Số 6A Ngách 2 Ngõ 121 Chùa Láng",
 "distance": "180m",
 "price": "30-40k",
@@ -1310,7 +1292,7 @@ restaurants_data = [
 "reviews": []
 },
 {
-"name": "Bánh canh ghẹ",
+"name": "Bánh canh ghẹ 2",
 "address": "Số 4 Ngõ 91 Chùa Láng",
 "distance": "140m",
 "price": "40-50k",
