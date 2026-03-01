@@ -565,6 +565,41 @@ restaurants_data = [
             {"name": "Nguyễn Đức Tài", "rating": 1, "content": "Khách đến chờ 15 phút đi ra mua đồ ăn bánh mì, nước uống quay lại vẫn chưa xong"}
         ]
     }
+    {
+        "name": "KOMTO",
+        "address": "127 Ngõ 121/2 Chùa Láng",
+        "phone": "0901020089",
+        "distance": "150m",
+        "price": "40-50k",
+        "type": ["Cơm/Xôi/Cháo", "Gà/Thịt chiên"],
+        "time": ["Trưa", "Tối"],
+        "hours": "Mở đến 22:00",
+        "menu": [
+          { "dish": "Gà giòn sốt Thái (M)", "price": "40k" },
+          { "dish": "Gà giòn sốt Thái (L)", "price": "50k" },
+          { "dish": "Cơm đùi gà quế Lâm", "price": "50k" },
+          { "dish": "Gà giòn sốt me (M)", "price": "40k" },
+          { "dish": "Gà giòn sốt me (L)", "price": "50k" },
+          { "dish": "Cơm đùi gà sốt me", "price": "50k" },
+          { "dish": "Cơm gà giòn sốt mật ong (M)", "price": "40k" },
+          { "dish": "Cơm gà giòn sốt mật ong (L)", "price": "50k" },
+          { "dish": "Cơm heo Tứ Xuyên", "price": "50k" },
+          { "dish": "Cơm gà sốt đặc biệt", "price": "40k" },
+          { "dish": "Cơm gà nướng đặc biệt", "price": "45k" }
+        ],
+        "reviews": [
+          {
+            "name": "Thục Nghi",
+            "rating": 4,
+            "content": "Mình đi tầm 12h trưa quán siêu đông khách nên phục vụ hơi lâu nhưng đổi lại cơm ăn ngon, so với giá tầm 40-55k thì khẩu phần rất ổn. Canh ăn kèm free hơi nhạt, sốt Thái ổn, sốt me hợp chấm gà hơn."
+          },
+          {
+            "name": "Công nhân pháp lý",
+            "rating": 4,
+            "content": "Tôi thề với ae, gọi phần gà không sốt thì giòn thật sự luôn. Phần cơm đặc biệt sốt làm gà không còn giòn nữa. KFC, Jollibee no door."
+          }
+        ]
+     },
 
 
 ]
