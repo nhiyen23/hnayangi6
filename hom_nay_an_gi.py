@@ -2267,7 +2267,7 @@ def render_contribute():
         "📋 Điền Google Form",
         "https://forms.gle/your_form_link"
     )
-        col1, col2 = st.columns(2)
+    col1, col2 = st.columns(2)
         
         with col1:
             name = st.text_input("Tên quán *", placeholder="VD: Cơm Tấm Sài Gòn")
