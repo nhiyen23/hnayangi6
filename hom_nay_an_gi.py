@@ -380,7 +380,7 @@ restaurants_data = [
         "name": "Cơm Thố Anh Nguyễn",
         "address": "Số 17 Chùa Láng",
         "phone": "0972489933",
-        "distance": "220m",
+        "distance": "<500m",
         "price": "40-50k",
         "type": ["Cơm"],
         "time": ["Trưa", "Tối"],
