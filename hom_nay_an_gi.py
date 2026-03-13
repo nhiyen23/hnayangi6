@@ -1953,16 +1953,6 @@ def navigate_to(page):
         st.session_state.selected_restaurant = None
     st.rerun()
 
-st.markdown("""
-<style>
-div.stButton > button {
-    font-family: 'Montserrat', sans-serif !important; 
-    font-size: 18px !important;
-    font-weight: 600 !important;
-}
-</style>
-""", unsafe_allow_html=True)
-
 # Navigation Bar
 def render_navbar():
     # Title
