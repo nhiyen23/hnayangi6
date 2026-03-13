@@ -2261,7 +2261,7 @@ def render_about():
     
 # Page 5: Contribute
 def render_contribute():
-    st.markdown('<div class="hero-title3">Thông tin quán ăn</div>', unsafe_allow_html=True)
+    st.markdown('<div class="hero-title3">Đánh giá</div>', unsafe_allow_html=True)
     st.write("Chia sẻ trải nghiệm của bạn tại đây!")
     st.link_button(
         "📋 Điền Google Form",
