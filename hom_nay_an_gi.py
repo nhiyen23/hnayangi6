@@ -1956,9 +1956,9 @@ def navigate_to(page):
 st.markdown("""
 <style>
 div.stButton > button {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
+    font-family: 'Montserrat', sans-serif !important; 
+    font-size: 18px !important;
+    font-weight: 600 !important;
 }
 </style>
 """, unsafe_allow_html=True)
