@@ -2260,85 +2260,48 @@ def render_about():
         """, unsafe_allow_html=True)
     
 # Page 5: Contribute
-def render_contribute():   
+def render_contribute():
     st.markdown('<div class="hero-title3">Thông tin quán ăn</div>', unsafe_allow_html=True)
     st.write("Chia sẻ trải nghiệm của bạn tại đây!")
     st.link_button(
         "📋 Điền Google Form",
         "https://forms.gle/your_form_link"
     )
-
     with st.form("contribute_form"):
-
+        st.markdown('<div class="hero-title3">Thông tin quán ăn</div>', unsafe_allow_html=True)
+        
         col1, col2 = st.columns(2)
-
-    with col1:
-        name = st.text_input("Tên quán *", placeholder="VD: Cơm Tấm Sài Gòn")
-        address = st.text_input("Địa chỉ *", placeholder="VD: 123 Chùa Láng, Đống Đa")
-        price = st.selectbox("Giá trung bình *", ["<30k", "30-50k", ">50k"])
-
-    with col2:
-        food_type = st.multiselect(
-            "Loại món *",
-            ["Cơm", "Bún", "Phở", "Mì", "Đồ ăn vặt", "Trà sữa", "Xôi", "Lẩu"]
+        
+        with col1:
+            name = st.text_input("Tên quán *", placeholder="VD: Cơm Tấm Sài Gòn")
+            address = st.text_input("Địa chỉ *", placeholder="VD: 123 Chùa Láng, Đống Đa")
+            price = st.selectbox("Giá trung bình *", ["<30k", "30-50k", ">50k"])
+        
+        with col2:
+            food_type = st.multiselect(
+                "Loại món *",
+                ["Cơm", "Bún", "Phở", "Mì", "Đồ ăn vặt", "Trà sữa", "Xôi", "Lẩu"]
+            )
+            time_slots = st.multiselect(
+                "Thời gian phục vụ *",
+                ["Sáng", "Trưa", "Tối", "Khuya"]
+            )
+            rating = st.slider("Đánh giá của bạn", 1.0, 5.0, 4.0, 0.5)
+        
+        review = st.text_area(
+            "Đánh giá ngắn *",
+            placeholder="Chia sẻ trải nghiệm của bạn về quán này...",
+            height=150
         )
-
-        time_slots = st.multiselect(
-            "Thời gian phục vụ *",
-            ["Sáng", "Trưa", "Tối", "Khuya"]
-        )
-
-        rating = st.slider("Đánh giá của bạn", 1.0, 5.0, 4.0, 0.5)
-
-    review = st.text_area(
-        "Đánh giá ngắn *",
-        placeholder="Chia sẻ trải nghiệm của bạn về quán này...",
-        height=150
-    )
-
-    submit = st.form_submit_button("Gửi đánh giá", use_container_width=True)
-
-    if submit:
-        if name and address and food_type and time_slots and review:
-            st.success("Cảm ơn bạn đã đóng góp! Thông tin của bạn đã được ghi nhận.")
-            st.balloons()
-        else:
-            st.error("Vui lòng điền đầy đủ các thông tin bắt buộc (*)")
-
-
-            
-    # col1, col2 = st.columns(2)
         
-    # with col1:
-    #     name = st.text_input("Tên quán *", placeholder="VD: Cơm Tấm Sài Gòn")
-    #     address = st.text_input("Địa chỉ *", placeholder="VD: 123 Chùa Láng, Đống Đa")
-    #     price = st.selectbox("Giá trung bình *", ["<30k", "30-50k", ">50k"])
+        submit = st.form_submit_button("Gửi đánh giá", use_container_width=True)
         
-    # with col2:
-    #     food_type = st.multiselect(
-    #         "Loại món *",
-    #         ["Cơm", "Bún", "Phở", "Mì", "Đồ ăn vặt", "Trà sữa", "Xôi", "Lẩu"]
-    #     )
-    #     time_slots = st.multiselect(
-    #         "Thời gian phục vụ *",
-    #         ["Sáng", "Trưa", "Tối", "Khuya"]
-    #     )
-    #     rating = st.slider("Đánh giá của bạn", 1.0, 5.0, 4.0, 0.5)
-        
-    # review = st.text_area(
-    #     "Đánh giá ngắn *",
-    #     placeholder="Chia sẻ trải nghiệm của bạn về quán này...",
-    #     height=150
-    # )
-        
-    # submit = st.form_submit_button("Gửi đánh giá", use_container_width=True)
-        
-    # if submit:
-    #     if name and address and food_type and time_slots and review:
-    #         st.success("Cảm ơn bạn đã đóng góp! Thông tin của bạn đã được ghi nhận.")
-    #         st.balloons()
-    #     else:
-    #         st.error("Vui lòng điền đầy đủ các thông tin bắt buộc (*)")
+        if submit:
+            if name and address and food_type and time_slots and review:
+                st.success("Cảm ơn bạn đã đóng góp! Thông tin của bạn đã được ghi nhận.")
+                st.balloons()
+            else:
+                st.error("Vui lòng điền đầy đủ các thông tin bắt buộc (*)")
 
 # Main App Logic
 def main():
