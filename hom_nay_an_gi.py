@@ -382,7 +382,7 @@ restaurants_data = [
         "phone": "0972489933",
         "distance": "<500m",
         "price": "40-50k",
-        "type": ["Cơm"],
+        "type": ["Cơm/Xôi/Cháo"],
         "time": ["Trưa", "Tối"],
         "hours": "9:45 - 21:45",
         "menu": [
