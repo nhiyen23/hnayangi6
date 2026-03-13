@@ -2280,7 +2280,7 @@ def render_contribute():
         with col2:
             food_type = st.multiselect(
                 "Loại món *",
-                ["Cơm", "Bún", "Phở", "Mì", "Đồ ăn vặt", "Trà sữa", "Xôi", "Lẩu"]
+                ["Cơm/Xôi/Cháo", "Bún/Phở/Miến/Bánh canh/Súp", "Gà/Thịt chiên", "Đồ Hàn", "Nem nướng", "Bánh mì pate/chảo/muối ớt", "Bánh tráng", "Tacos", "Bánh cuốn"],
             )
             time_slots = st.multiselect(
                 "Thời gian phục vụ *",
