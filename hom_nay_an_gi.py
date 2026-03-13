@@ -409,7 +409,7 @@ restaurants_data = [
         "name": "KOMTO",
         "address": "127 Ngõ 121/2 Chùa Láng",
         "phone": "0901020089",
-        "distance": "150m",
+        "distance": "<500m",
         "price": "40-50k",
         "type": ["Cơm/Xôi/Cháo", "Gà/Thịt chiên"],
         "time": ["Trưa", "Tối"],
@@ -443,7 +443,7 @@ restaurants_data = [
      {
         "name": "Kofuku - Tiệm cơm mì",
         "address": "2 Ngõ 106 Phố Chùa Láng",
-        "distance": "220m",
+        "distance": "<500m",
         "price": "40-50k",
         "type": ["Cơm/Xôi/Cháo"],
         "time": ["Trưa", "Tối"],
@@ -493,7 +493,7 @@ restaurants_data = [
   {
   "name": "Oanh Oanh - Xôi xéo - Gà tần",
   "address": "38 Nguyễn Chí Thanh",
-  "distance": "750m",
+  "distance": "500m-1km",
   "price": "<30k",
   "type": ["Cơm/Xôi/Cháo"],
   "time": ["Sáng", "Trưa"],
@@ -529,7 +529,7 @@ restaurants_data = [
   {
   "name": "Xôi Sùng sục - Chà Bá lửa",
   "address": "Số 1 ngõ 59 Chùa Láng (SĐT: 0264285214)",
-  "distance": "350m",
+  "distance": "<500m",
   "price": "<30k",
   "type": ["Cơm/Xôi/Cháo"],
   "time": ["Sáng", "Trưa", "Tối"],
@@ -563,7 +563,7 @@ restaurants_data = [
  {
  "name": "Punnata - Cháo se nghệ nhân (Cơ sở 2)",
  "address": "66 Chùa Láng (SĐT: 0916516738)",
- "distance": "300m",
+ "distance": "<500m",
  "price": "40-50k",
  "type": ["Cơm/Xôi/Cháo"],
  "time": ["Sáng", "Trưa"],
@@ -597,7 +597,7 @@ restaurants_data = [
  {
  "name": "Kim Mari Chicken",
  "address": "100 Phố Chùa Láng",
- "distance": "74m",
+ "distance": "<500m",
  "price": "120k-170k",
  "type": ["Đồ Hàn"],
  "time": ["Trưa", "Tối"],
@@ -638,7 +638,7 @@ restaurants_data = [
 {
 "name": "Nhà Hàng OnJeong (온정)",
 "address": "32 Phố Chùa Láng, Đống Đa",
-"distance": "350m",
+"distance": "<500m",
 "price": ">50k",
 "type": ["Đồ Hàn"],
 "time": ["Trưa", "Tối"],
@@ -684,7 +684,7 @@ restaurants_data = [
 {
 "name": "K-Pub Chicken",
 "address": "4 Ngõ 121 Chùa Láng",
-"distance": "350m",
+"distance": "<500m",
 "price": ">50k",
 "type": ["Đồ Hàn"],
 "time": ["Trưa", "Tối"],
@@ -720,7 +720,7 @@ restaurants_data = [
 {
 "name": "Maru Korean Food & Dessert",
 "address": "980 Đường Láng",
-"distance": "750m",
+"distance": "500m-1km",
 "price": ">50k",
 "type": ["Đồ Hàn"],
 "time": ["Trưa", "Tối"],
@@ -751,7 +751,7 @@ restaurants_data = [
 {
 "name": "San Tokbokki Chùa Láng",
 "address": "46 Ngõ 59 Chùa Láng, Đống Đa",
-"distance": "350m",
+"distance": "<500m",
 "price": "30-40k",
 "type": ["Đồ Hàn"],
 "time": ["Sáng", "Trưa"],
@@ -788,7 +788,7 @@ restaurants_data = [
 {
 "name": "Huy Go cook",
 "address": "130 Phố Chùa Láng",
-"distance": "600m",
+"distance": "500m-1km",
 "price": ">50k",
 "type": ["Đồ Hàn"],
 "time": ["Trưa", "Tối"],
@@ -828,7 +828,7 @@ restaurants_data = [
 {
 "name": "Mukbang - Đồ ăn Hàn Quốc",
 "address": "141 Phố Chùa Láng",
-"distance": "350m",
+"distance": "<500m",
 "price": ">50k",
 "type": ["Đồ Hàn"],
 "time": ["Trưa", "Tối"],
@@ -865,7 +865,7 @@ restaurants_data = [
 {
 "name": "Hola Tacos",
 "address": "143 Phố Chùa Láng",
-"distance": "350m",
+"distance": "<500m",
 "price": "30-40k",
 "type": ["Tacos"],
 "time": ["Sáng", "Trưa"],
@@ -900,7 +900,7 @@ restaurants_data = [
 {
 "name": "Tacos Măm",
 "address": "27 Chùa Láng - 116 Chùa Láng",
-"distance": "350m",
+"distance": "<500m",
 "price": "30-40k",
 "type": ["Tacos"],
 "time": ["Sáng", "Trưa"],
@@ -921,7 +921,7 @@ restaurants_data = [
 {
 "name": "Bún cá cô Tuyết",
 "address": "Số 24 Ngõ 84 Chùa Láng",
-"distance": "210m",
+"distance": "<500m",
 "price": "30-40k",
 "type": ["Bún/Phở/Miến/Bánh canh/Súp"],
 "time": ["Sáng", "Trưa", "Tối"],
@@ -943,7 +943,7 @@ restaurants_data = [
 {
 "name": "Súp cua GA",
 "address": "Số 6A Ngõ 91 Chùa Láng",
-"distance": "140m",
+"distance": "<500m",
 "price": "30-40k",
 "type": ["Bún/Phở/Miến/Bánh canh/Súp"],
 "time": ["Sáng", "Trưa", "Tối"],
@@ -982,7 +982,7 @@ restaurants_data = [
 {
 "name": "Bún đậu Chùa Láng",
 "address": "Số 33 Ngõ 185 Chùa Láng",
-"distance": "650m",
+"distance": "500m-1km",
 "price": "30-40k",
 "type": ["Bún/Phở/Miến/Bánh canh/Súp"],
 "time": ["Sáng", "Trưa", "Tối"],
@@ -1014,7 +1014,7 @@ restaurants_data = [
 {
 "name": "Bún đỏ Chùa Láng",
 "address": "Số 6 Ngõ 185 Chùa Láng",
-"distance": "500m",
+"distance": "500m-1km",
 "price": "30-40k",
 "type": ["Bún/Phở/Miến/Bánh canh/Súp"],
 "time": ["Sáng", "Trưa", "Tối"],
@@ -1044,7 +1044,7 @@ restaurants_data = [
 {
 "name": "Bún bò Huế Hương Giang",
 "address": "Số 42 Ngõ 185 Chùa Láng",
-"distance": "650m",
+"distance": "500m-1km",
 "price": "30-40k",
 "type": ["Bún/Phở/Miến/Bánh canh/Súp"],
 "time": ["Sáng", "Trưa", "Tối"],
@@ -1075,7 +1075,7 @@ restaurants_data = [
 {
 "name": "Hi - Tôm bún hải sản",
 "address": "Số 211 Chùa Láng",
-"distance": "500m",
+"distance": "500m-1km",
 "price": "30-40k",
 "type": ["Bún/Phở/Miến/Bánh canh/Súp"],
 "time": ["Sáng", "Trưa", "Tối"],
@@ -1106,7 +1106,7 @@ restaurants_data = [
 {
 "name": "Bún cá rô đồng",
 "address": "Số 127 Chùa Láng",
-"distance": "150m",
+"distance": "<500m",
 "price": "30-40k",
 "type": ["Bún/Phở/Miến/Bánh canh/Súp"],
 "time": ["Sáng", "Trưa", "Tối"],
@@ -1119,7 +1119,7 @@ restaurants_data = [
 {
 "name": "Bánh canh ghẹ 1",
 "address": "Số 6A Ngách 2 Ngõ 121 Chùa Láng",
-"distance": "180m",
+"distance": "<500m",
 "price": "30-40k",
 "type": ["Bún/Phở/Miến/Bánh canh/Súp"],
 "time": ["Sáng", "Trưa", "Tối"],
@@ -1134,7 +1134,7 @@ restaurants_data = [
 {
 "name": "Bánh canh ghẹ 2",
 "address": "Số 4 Ngõ 91 Chùa Láng",
-"distance": "140m",
+"distance": "<500m",
 "price": "40-50k",
 "type": ["Bún/Phở/Miến/Bánh canh/Súp"],
 "time": ["Sáng", "Trưa", "Tối"],
@@ -1166,7 +1166,7 @@ restaurants_data = [
 {
 "name": "Bún bò Huế O - Nga",
 "address": "Số 181 Chùa Láng",
-"distance": "500m",
+"distance": "500m-1km",
 "price": "40-50k",
 "type": ["Bún/Phở/Miến/Bánh canh/Súp"],
 "time": ["Sáng", "Trưa", "Tối"],
@@ -1193,7 +1193,7 @@ restaurants_data = [
 {
 "name": "Bánh canh ghẹ",
 "address": "Số 2 Ngõ 121 Chùa Láng",
-"distance": "180m",
+"distance": "<500m",
 "price": "40-50k",
 "type": ["Bún/Phở/Miến/Bánh canh/Súp"],
 "time": ["Sáng", "Trưa", "Tối"],
@@ -1214,7 +1214,7 @@ restaurants_data = [
 {
 "name": "Bún bò Huế O Chang - Bún bò Nam Bộ",
 "address": "Số 79 Chùa Láng",
-"distance": "20m",
+"distance": "<500m",
 "price": ">50k",
 "type": ["Bún/Phở/Miến/Bánh canh/Súp"],
 "time": ["Sáng", "Trưa", "Tối"],
@@ -1244,7 +1244,7 @@ restaurants_data = [
 {
 "name": "Bún riêu cua tóp mỡ Huỳnh Anh",
 "address": "Số 114 Chùa Láng",
-"distance": "450m",
+"distance": "<500m",
 "price": "40-50k",
 "type": ["Bún/Phở/Miến/Bánh canh/Súp"],
 "time": ["Sáng", "Trưa", "Tối"],
@@ -1273,7 +1273,7 @@ restaurants_data = [
 {
 "name": "Mì trộn Nam Béo",
 "address": "Số 20 Ngõ 91 Chùa Láng",
-"distance": "210m",
+"distance": "<500m",
 "price": "30-40k",
 "type": ["Bún/Phở/Miến/Bánh canh/Súp"],
 "time": ["Sáng", "Trưa", "Tối"],
@@ -1288,7 +1288,7 @@ restaurants_data = [
 {
 "name": "Hủ tiếu",
 "address": "Ngõ 91 Chùa Láng",
-"distance": "70m",
+"distance": "<500m",
 "price": "40-50k",
 "type": ["Bún/Phở/Miến/Bánh canh/Súp"],
 "time": ["Sáng", "Trưa", "Tối"],
@@ -1299,7 +1299,7 @@ restaurants_data = [
 {
 "name": "Quán cô Hương Béo",
 "address": "Số 61 Chùa Láng",
-"distance": "150m",
+"distance": "<500m",
 "price": "40-50k",
 "type": ["Bún/Phở/Miến/Bánh canh/Súp"],
 "time": ["Sáng", "Trưa", "Tối"],
@@ -1325,7 +1325,7 @@ restaurants_data = [
 {
 "name": "Bún cá cay Hải Phòng",
 "address": "Số 128 Đường Nguyễn Chí Thanh",
-"distance": "1.3km",
+"distance": "1-2km",
 "price": "40-50k",
 "type": ["Bún/Phở/Miến/Bánh canh/Súp"],
 "time": ["Sáng", "Trưa", "Tối"],
@@ -1351,7 +1351,7 @@ restaurants_data = [
 {
 "name": "Mỳ chua cay 6 phụ nữ",
 "address": "Số 10 Ngách 4 Ngõ 91 Chùa Láng",
-"distance": "500m",
+"distance": "500m-1km",
 "price": "40-50k",
 "type": ["Bún/Phở/Miến/Bánh canh/Súp"],
 "time": ["Sáng", "Trưa", "Tối"],
@@ -1384,7 +1384,7 @@ restaurants_data = [
 {
 "name": "Phở gà phố cổ Bảo Lộc",
 "address": "Số 35 Chùa Láng",
-"distance": "170m",
+"distance": "<500m",
 "price": "40-50k",
 "type": ["Bún/Phở/Miến/Bánh canh/Súp"],
 "time": ["Sáng", "Trưa", "Tối"],
@@ -1414,7 +1414,7 @@ restaurants_data = [
 {
 "name": "Bún riêu Dung MaMa - Chùa Láng",
 "address": "Số 41 Chùa Láng",
-"distance": "170m",
+"distance": "<500m",
 "price": "<30k",
 "type": ["Bún/Phở/Miến/Bánh canh/Súp"],
 "time": ["Sáng", "Trưa", "Tối"],
@@ -1443,7 +1443,7 @@ restaurants_data = [
   {
     "name": "Nem nướng Nha Trang Anh Tư Béo",
     "address": "Số 151 Chùa Láng",
-    "distance": "220m",
+    "distance": "<500m",
     "price": "30-40k",
     "type": ["Nem nướng"],
     "time": ["Sáng", "Trưa", "Tối"],
@@ -1476,7 +1476,7 @@ restaurants_data = [
   {
     "name": "Nem nướng Nha Trang Vân Linh",
     "address": "Số 18 Ngõ 59 Chùa Láng",
-    "distance": "230m",
+    "distance": "<500m",
     "price": "30-40k",
     "type": ["Nem nướng"],
     "time": ["Sáng", "Trưa", "Tối"],
@@ -1506,7 +1506,7 @@ restaurants_data = [
   {
     "name": "Nem nướng Nha Trang Tâm Việt",
     "address": "Số 10 Ngõ 121 Chùa Láng",
-    "distance": "240m",
+    "distance": "<500m",
     "price": "40-50k",
     "type": ["Nem nướng"],
     "time": ["Sáng", "Trưa", "Tối"],
@@ -1539,7 +1539,7 @@ restaurants_data = [
   {
     "name": "Koifood - Buffet nem nướng Nha Trang",
     "address": "Số 122C Ngõ 1194 Đường Láng",
-    "distance": "700m",
+    "distance": "500m-1km",
     "price": "45k - 60k",
     "type": ["Nem nướng", "Buffet"],
     "time": ["Sáng", "Trưa", "Tối"],
@@ -1553,7 +1553,7 @@ restaurants_data = [
   {
     "name": "Dơm - Vua Bánh Tráng",
     "address": "Số 34 Huỳnh Thúc Kháng",
-    "distance": "300m",
+    "distance": "<500m",
     "price": "30-40k",
     "type": ["Bánh tráng"],
     "time": ["Sáng", "Trưa", "Tối"],
@@ -1592,7 +1592,7 @@ restaurants_data = [
   {
     "name": "Bánh tráng Nhím",
     "address": "Số 1 Ngõ 84 Chùa Láng",
-    "distance": "80m",
+    "distance": "<500m",
     "price": "<30k",
     "type": ["Bánh tráng"],
     "time": ["Sáng", "Trưa", "Tối"],
@@ -1627,7 +1627,7 @@ restaurants_data = [
   {
     "name": "Tina Trần Bistro",
     "address": "Số 45 Ngõ 33 Chùa Láng",
-    "distance": "290m",
+    "distance": "<500m",
     "price": "<30k",
     "type": ["Bánh tráng"],
     "time": ["Sáng", "Trưa", "Tối"],
@@ -1660,7 +1660,7 @@ restaurants_data = [
   {
     "name": "Bánh tráng trộn Sài Gòn - Chùa Láng",
     "address": "Số 147 Ngõ 1194 Đường Láng",
-    "distance": "600m",
+    "distance": "500m-1km",
     "price": "<30k",
     "type": ["Bánh tráng"],
     "time": ["Sáng", "Trưa", "Tối"],
@@ -1690,7 +1690,7 @@ restaurants_data = [
   {
     "name": "Bánh tráng trộn Quang Đăng",
     "address": "Số 131 Chùa Láng",
-    "distance": "170m",
+    "distance": "<500m",
     "price": "<30k",
     "type": ["Bánh tráng"],
     "time": ["Sáng", "Trưa", "Tối"],
@@ -1727,7 +1727,7 @@ restaurants_data = [
   {
     "name": "Tê Tê Chicken",
     "address": "Ngõ 91, Phố Chùa Láng, Láng Thượng, Đống Đa, Hà Nội, Việt Nam",
-    "distance": "200-300m",
+    "distance": "<500m",
     "price": ">50k",
     "type": ["Gà/Thịt chiên"],
     "time": ["Sáng", "Trưa", "Chiều", "Tối"],
@@ -1745,7 +1745,7 @@ restaurants_data = [
   {
     "name": "Bánh mì thịt xiên nướng",
     "address": "67 Chùa Láng, Láng Thượng (cạnh Laika Coffee)",
-    "distance": "200-300m",
+    "distance": "<500m",
     "price": "<30k",
     "type": ["Gà/Thịt chiên", "Bánh mì pate/chảo/muối ớt"],
     "time": ["Chiều", "Tối"],
@@ -1761,7 +1761,7 @@ restaurants_data = [
   {
     "name": "HTX Thịt Xiên Nướng Hoàng Đức",
     "address": "55 Phố Chùa Láng, Láng Thượng",
-    "distance": "200-300m",
+    "distance": "<500m",
     "price": "<30k",
     "type": ["Gà/Thịt chiên"],
     "time": ["Chiều", "Tối"],
@@ -1779,7 +1779,7 @@ restaurants_data = [
   {
     "name": "Bánh mì chảo Phúc Linh",
     "address": "78 Phố Chùa Láng, Láng Thượng, Đống Đa, Hà Nội",
-    "distance": "200m",
+    "distance": "<500m",
     "price": ">50k",
     "type": ["Bánh mì pate/chảo/muối ớt"],
     "time": ["Sáng", "Trưa", "Chiều", "Tối"],
@@ -1801,7 +1801,7 @@ restaurants_data = [
   {
     "name": "Chà bá lửa",
     "address": "44 Ngõ 59 Chùa Láng, Láng Thượng, Đống Đa",
-    "distance": "300-400m",
+    "distance": "<500m",
     "price": "<30k",
     "type": ["Bánh mì pate/chảo/muối ớt"],
     "time": ["Sáng", "Trưa", "Chiều", "Tối"],
@@ -1820,7 +1820,7 @@ restaurants_data = [
   {
     "name": "Bánh mì One One",
     "address": "87 Phố Chùa Láng, Đống Đa, Hà Nội",
-    "distance": "Cạnh cổng trường FTU",
+    "distance": "<500m",
     "price": "<30k",
     "type": ["Bánh mì pate/chảo/muối ớt"],
     "time": ["Cả ngày"],
@@ -1837,7 +1837,7 @@ restaurants_data = [
   {
     "name": "Bánh mì chả cá",
     "address": "Phía tay trái từ cổng trường",
-    "distance": "100m",
+    "distance": "<500m",
     "price": "<30k",
     "type": ["Bánh mì pate/chảo/muối ớt"],
     "time": ["Sáng", "Trưa"],
@@ -1854,7 +1854,7 @@ restaurants_data = [
   {
     "name": "Bánh mì Pew Pew",
     "address": "1 Ngõ 84 Phố Chùa Láng, Láng Thượng",
-    "distance": "300-400m",
+    "distance": "<500m",
     "price": "<30k",
     "type": ["Bánh mì pate/chảo/muối ớt"],
     "time": ["Sáng", "Trưa", "Chiều", "Tối"],
@@ -1873,7 +1873,7 @@ restaurants_data = [
   {
     "name": "Bánh cuốn gia truyền Huyền Anh",
     "address": "Số 1 Ngõ 84, Phố Chùa Láng, Láng Thượng",
-    "distance": "300-400m",
+    "distance": "<500m",
     "price": "<30k",
     "type": ["Bánh cuốn"],
     "time": ["Sáng", "Trưa", "Chiều", "Tối"],
@@ -1890,7 +1890,7 @@ restaurants_data = [
   {
     "name": "Bánh cuốn nóng bún chả",
     "address": "29 Ngõ 185 Phố Chùa Láng, Láng Thượng, Đống Đa",
-    "distance": "600m",
+    "distance": "500m-1km",
     "price": "<30k",
     "type": ["Bánh cuốn"],
     "time": ["Sáng", "Trưa"],
